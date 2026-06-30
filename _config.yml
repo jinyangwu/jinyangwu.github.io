@@ -21,9 +21,9 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Jinyang Wu (武锦阳)"
+  name             : "Jinyang Wu"
   avatar           : "images/profile.jpg"
-  bio              : "Ph.D. Student @ Tsinghua University"
+  bio              : "Ph.D Candidate@THU"
   location         : "Beijing, China"
   employer         : "Tsinghua University"
   pubmed           : 

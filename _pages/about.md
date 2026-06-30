@@ -17,18 +17,20 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I'm currently a Ph.D. student in the Department of Automation at Tsinghua University, advised by Jianhua Tao. Prior to this, I earned my B.Eng. degree from the School of Automation Science and Engineering, Xi'an Jiaotong University in 2023.
+I’m currently a 3nd-year Ph.D candidate in the Department of Automation at Tsinghua University. Prior to this, I earned my B.Eng. degree from the School of Automation Science and Engineering, Xi'an Jiaotong University in 2023.
 
 My research interests focus on LLM / MLLM reasoning and agentic reinforcement learning. From 2024 to early 2025, my work mainly studied high-quality and high-efficiency reasoning for LLMs. My current research investigates post-training techniques for general agents, including agent skills, on-policy distillation (OPD), and reinforcement learning (RL).
 
-I also worked closely with Shuai Zhang and Zhengqi Wen. I am fortunate to collaborate with [Haoran Luo](https://haoranluo.net/), [Zhengxi Lu](https://lll6gg.github.io/), [Zheng Lian](https://zeroqiaoba.github.io/Homepage/), and [Fan Zhang](https://zfkarl.github.io/).
+I worked closely with [Shuai Zhang](https://scholar.google.com/citations?user=PfILtS8AAAAJ&hl=zh-CN) and [Zhengqi Wen](https://scholar.google.com/citations?user=7SBjscMAAAAJ&hl=zh-CN). I am fortunate to collaborate with [Haoran Luo](https://haoranluo.net/), [Zhengxi Lu](https://lll6gg.github.io/), [Zheng Lian](https://zeroqiaoba.github.io/Homepage/), and [Fan Zhang](https://zfkarl.github.io/).
 
 # 🔥 News
 - *2026.06*: &nbsp;🔥🔥 Our new work [OPID](https://arxiv.org/abs/2606.26790) was released, exploring on-policy skill distillation for agentic RL.
 - *2026.05*: &nbsp;🔥🔥 Our new work [Maestro](https://arxiv.org/abs/2605.22177) was released, about RL-based orchestration over hierarchical model-skill ensembles.
-- *2026.04*: &nbsp;🎉🎉 Four papers were accepted by ACL 2026, including SPARK, Atlas, TemplateRL, and ThoughtICR.
-- *2026.02*: &nbsp;🎉🎉 One paper was accepted by AAAI 2026 as an Oral presentation.
-- *2025.07*: &nbsp;🎉🎉 NoiserBench appeared at ACL 2025.
+- *2026.05*: &nbsp;🔥🔥 Our new work [SDAR](https://arxiv.org/abs/2605.15155) was released, featured as 🤗 HF Daily Paper #2!
+- *2026.05*: &nbsp;🔥🔥 Our new work [SKILL1](https://arxiv.org/abs/2605.06130) was released, featured as 🤗 HF Daily Paper #2!
+- *2026.04*: &nbsp;🎉🎉 Six papers were accepted by ACL 2026, including one oral (Spark) and best paper candidate (Double).
+- *2025.11*: &nbsp;🎉🎉 Two paper was accepted by AAAI 2026 (one Oral presentation).
+- *2025.05*: &nbsp;🎉🎉 NoiserBench appeared at ACL 2025.
 
 # 📝 Publications 
 
@@ -85,7 +87,7 @@ Shuo Yang, **<u>Jinyang Wu</u>**, Zhengxi Lu, Yuhao Shen, Fan Zhang, Lang Feng, 
 - <span style="color:white;background-color:#00369f;padding:0 0.6em;font-size:0.8em;">Preprint</span> [SKILL0: In-Context Agentic Reinforcement Learning for Skill Internalization](https://arxiv.org/abs/2604.02268), Zhengxi Lu, Zhiyuan Yao, **<u>Jinyang Wu</u>**, Chengcheng Han, Qi Gu, Xunliang Cai, Weiming Lu, Jun Xiao, Yueting Zhuang, Yongliang Shen [[Code]](https://github.com/ZJU-REAL/SkillZero)
 - <span style="color:white;background-color:#00369f;padding:0 0.6em;font-size:0.8em;">Preprint</span> [SDAR: Self-Distilled Agentic Reinforcement Learning](https://arxiv.org/abs/2605.15155), Zhengxi Lu, Zhiyuan Yao, Zhuowen Han, Zi-Han Wang, **<u>Jinyang Wu</u>**, Qi Gu, Xunliang Cai, Weiming Lu, Jun Xiao, Yueting Zhuang, Yongliang Shen [[Code]](https://github.com/ZJU-REAL/SDAR)
 - <span style="color:white;background-color:#00369f;padding:0 0.6em;font-size:0.8em;">Preprint</span> [OdysseyArena: Benchmarking Large Language Models For Long-Horizon, Active and Inductive Interactions](https://arxiv.org/abs/2602.05843), Fangzhi Xu, Hang Yan, Qiushi Sun, **<u>Jinyang Wu</u>**, Zixian Huang, Muye Huang, Jingyang Gong, Zichen Ding, Kanzhi Cheng, Yian Wang, Xinyu Che, Zeyi Sun, Jian Zhang, Zhangyue Yin, Haoran Luo, Xuanjing Huang, Ben Kao, Jun Liu, Qika Lin [[Code]](https://github.com/xufangzhi/Odyssey-Arena)
-- <span style="color:white;background-color:#00369f;padding:0 0.6em;font-size:0.8em;">Preprint</span> [Orchestra-o1: Omnimodal Agent Orchestration](https://arxiv.org/abs/2606.13707), Fan Zhang, Vireo Zhang, Shengju Qian, Haoxuan Li, Hao Wu, **<u>Jinyang Wu</u>**, Donghao Zhou, Zhihong Zhu, Zheng Lian, Xin Wang, Pheng-Ann Heng
+- <span style="color:white;background-color:#00369f;padding:0 0.6em;font-size:0.8em;">Preprint</span> [Orchestra-o1: Omnimodal Agent Orchestration](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=t8H8Ru0AAAAJ&sortby=pubdate&citation_for_view=t8H8Ru0AAAAJ:YOwf2qJgpHMC), Fan Zhang, Vireo Zhang, Shengju Qian, Haoxuan Li, Hao Wu, **<u>Jinyang Wu</u>**, Donghao Zhou, Zhihong Zhu, Zheng Lian, Xin Wang, Pheng-Ann Heng
 - <span style="color:white;background-color:#00369f;padding:0 0.6em;font-size:0.8em;">Preprint</span> [RobotEQ: Transitioning from Passive Intelligence to Active Intelligence in Embodied AI](https://arxiv.org/abs/2605.06234), Kuofei Fang, Xinyi Che, Haomin Ouyang, Shufan Zhang, Xuehao Wang, Qi Liu, Liyi Liu, Chenqi Zhang, Wenxi Cai, Wenyu Dai, **<u>Jinyang Wu</u>**, Fan Zhang, Haoyu Chen, Bin He, Zheng Lian
 
 ## 🧠 LLM Reasoning
@@ -158,8 +160,8 @@ Shuo Yang, **<u>Jinyang Wu</u>**, Zhengxi Lu, Yuhao Shen, Fan Zhang, Lang Feng, 
 - Teaching Assistant, Intelligent Speech Processing, undergraduate interdisciplinary innovation training course.
 
 # 🎖 Honors and Awards
-- Outstanding Teaching Assistant, Tsinghua University.
-- Merit Student, Tsinghua University.
+- *2026*: Outstanding Teaching Assistant, Tsinghua University.
+- *2026*: Merit Student, Tsinghua University.
 - *2025*: First-Class Scholarship of Tsinghua University.
 - *2024*: Second-Class Scholarship of Tsinghua University.
 - *2023*: Outstanding Graduate, Shaanxi Province.
