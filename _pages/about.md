@@ -27,36 +27,38 @@ I worked closely with [Shuai Zhang](https://scholar.google.com/citations?user=Pf
 - *2026.06*: &nbsp;🔥🔥 Our new work [OPID](https://arxiv.org/abs/2606.26790) was released, exploring on-policy skill distillation for agentic RL.
 - *2026.05*: &nbsp;🔥🔥 Our new work [Maestro](https://arxiv.org/abs/2605.22177) was released, about RL-based orchestration over hierarchical model-skill ensembles.
 - *2026.05*: &nbsp;🔥🔥 Our new work [SDAR](https://arxiv.org/abs/2605.15155) was released, featured as 🤗 HF Daily Paper #2!
-- *2026.05*: &nbsp;🔥🔥 Our new work [SKILL1](https://arxiv.org/abs/2605.06130) was released, featured as 🤗 HF Daily Paper #2!
+- *2026.05*: &nbsp;🔥🔥 Our new work [SKILL0](https://arxiv.org/abs/2604.02268) was released, featured as 🤗 HF Daily Paper #2!
 - *2026.04*: &nbsp;🎉🎉 Six papers were accepted by ACL 2026, including one oral (Spark) and best paper candidate (Double).
 - *2025.11*: &nbsp;🎉🎉 Two paper was accepted by AAAI 2026 (one Oral presentation).
 - *2025.05*: &nbsp;🎉🎉 NoiserBench appeared at ACL 2025.
 
 # 📝 Publications 
 
+<small>* Equal contribution. † Corresponding author.</small>
+
 ## 🤖 Agentic Post Training
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026 Oral</div><img src='pub_images/spark.png' alt="SPARK" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026</div><img src='pub_images/spark.png' alt="SPARK" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [SPARK: Strategic Policy-Aware Exploration via Dynamic Branching for Long-Horizon Agentic Learning](https://arxiv.org/abs/2601.20209)
 
-**<u>Jinyang Wu</u>**, Shuo Yang, Changpeng Yang, Yuhao Shen, Shuai Zhang, Zhengqi Wen, Jianhua Tao
+**<u>Jinyang Wu*</u>**, Shuo Yang*, Changpeng Yang, Yuhao Shen, Shuai Zhang, Zhengqi Wen, Jianhua Tao†
 
 [[Paper]](https://arxiv.org/abs/2601.20209) | [[Code]](https://github.com/jinyangwu/SPARK) <strong><span class='show_paper_citations' data='t8H8Ru0AAAAJ:0EnyYjriUFMC'></span></strong>
 - We propose a policy-aware branching framework that allocates exploration budget to critical decision states, improving sample efficiency for long-horizon agentic RL.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='pub_images/opid.png' alt="OPID" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026</div><img src='pub_images/atlas.png' alt="Atlas" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[OPID: On-Policy Skill Distillation for Agentic Reinforcement Learning](https://arxiv.org/abs/2606.26790)
+[Atlas: Orchestrating Heterogeneous Models and Tools for Multi-Domain Complex Reasoning](https://arxiv.org/abs/2601.03872)
 
-Shuo Yang, **<u>Jinyang Wu</u>**, Zhengxi Lu, Yuhao Shen, Fan Zhang, Lang Feng, Shuai Zhang, Haoran Luo, Zheng Lian, Zhengqi Wen, Jianhua Tao
+**<u>Jinyang Wu*</u>**, Guocheng Zhai*, Ruihan Jin*, Jiahao Yuan, Yuhao Shen, Shuai Zhang, Zhengqi Wen, Jianhua Tao†
 
-[[Paper]](https://arxiv.org/abs/2606.26790) | [[Code]](https://github.com/jinyangwu/OPID) <strong><span class='show_paper_citations' data='t8H8Ru0AAAAJ:4DMP91E08xMC'></span></strong>
-- We extract hierarchical skill supervision from completed on-policy trajectories and convert hindsight skill signals into dense token-level advantages for agent training.
+[[Paper]](https://arxiv.org/abs/2601.03872) <strong><span class='show_paper_citations' data='t8H8Ru0AAAAJ:ufrVoPGSRksC'></span></strong>
+- We introduce a dual-path framework for dynamic tool usage, combining cluster-based routing with RL-based multi-step routing for cross-domain reasoning.
 </div>
 </div>
 
@@ -72,19 +74,30 @@ Shuo Yang, **<u>Jinyang Wu</u>**, Zhengxi Lu, Yuhao Shen, Fan Zhang, Lang Feng, 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026</div><img src='pub_images/atlas.png' alt="Atlas" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='pub_images/opid.png' alt="OPID" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Atlas: Orchestrating Heterogeneous Models and Tools for Multi-Domain Complex Reasoning](https://arxiv.org/abs/2601.03872)
+[OPID: On-Policy Skill Distillation for Agentic Reinforcement Learning](https://arxiv.org/abs/2606.26790)
 
-**<u>Jinyang Wu</u>**, Guocheng Zhai, Ruihan Jin, Jiahao Yuan, Yuhao Shen, Shuai Zhang, Zhengqi Wen, Jianhua Tao
+Shuo Yang*, **<u>Jinyang Wu*</u>**, Zhengxi Lu, Yuhao Shen, Fan Zhang, Lang Feng, Shuai Zhang, Haoran Luo, Zheng Lian, Zhengqi Wen, Jianhua Tao
 
-[[Paper]](https://arxiv.org/abs/2601.03872) <strong><span class='show_paper_citations' data='t8H8Ru0AAAAJ:ufrVoPGSRksC'></span></strong>
-- We introduce a dual-path framework for dynamic tool usage, combining cluster-based routing with RL-based multi-step routing for cross-domain reasoning.
+[[Paper]](https://arxiv.org/abs/2606.26790) | [[Code]](https://github.com/jinyangwu/OPID) <strong><span class='show_paper_citations' data='t8H8Ru0AAAAJ:4DMP91E08xMC'></span></strong>
+- We extract hierarchical skill supervision from completed on-policy trajectories and convert hindsight skill signals into dense token-level advantages for agent training.
 </div>
 </div>
 
-- <span style="color:white;background-color:#00369f;padding:0 0.6em;font-size:0.8em;">Preprint</span> [SKILL0: In-Context Agentic Reinforcement Learning for Skill Internalization](https://arxiv.org/abs/2604.02268), Zhengxi Lu, Zhiyuan Yao, **<u>Jinyang Wu</u>**, Chengcheng Han, Qi Gu, Xunliang Cai, Weiming Lu, Jun Xiao, Yueting Zhuang, Yongliang Shen [[Code]](https://github.com/ZJU-REAL/SkillZero)
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='pub_images/skill0.png' alt="SKILL0" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[SKILL0: In-Context Agentic Reinforcement Learning for Skill Internalization](https://arxiv.org/abs/2604.02268)
+
+Zhengxi Lu, Zhiyuan Yao, **<u>Jinyang Wu</u>**, Chengcheng Han, Qi Gu, Xunliang Cai, Weiming Lu, Jun Xiao, Yueting Zhuang, Yongliang Shen
+
+[[Paper]](https://arxiv.org/abs/2604.02268) | [[Code]](https://github.com/ZJU-REAL/SkillZero) <strong><span class='show_paper_citations' data='t8H8Ru0AAAAJ:kNdYIx-mwKoC'></span></strong>
+- We study skill internalization for agents, gradually withdrawing runtime skill context so the policy can acquire reusable behaviors into its parameters.
+</div>
+</div>
+
 - <span style="color:white;background-color:#00369f;padding:0 0.6em;font-size:0.8em;">Preprint</span> [SDAR: Self-Distilled Agentic Reinforcement Learning](https://arxiv.org/abs/2605.15155), Zhengxi Lu, Zhiyuan Yao, Zhuowen Han, Zi-Han Wang, **<u>Jinyang Wu</u>**, Qi Gu, Xunliang Cai, Weiming Lu, Jun Xiao, Yueting Zhuang, Yongliang Shen [[Code]](https://github.com/ZJU-REAL/SDAR)
 - <span style="color:white;background-color:#00369f;padding:0 0.6em;font-size:0.8em;">Preprint</span> [OdysseyArena: Benchmarking Large Language Models For Long-Horizon, Active and Inductive Interactions](https://arxiv.org/abs/2602.05843), Fangzhi Xu, Hang Yan, Qiushi Sun, **<u>Jinyang Wu</u>**, Zixian Huang, Muye Huang, Jingyang Gong, Zichen Ding, Kanzhi Cheng, Yian Wang, Xinyu Che, Zeyi Sun, Jian Zhang, Zhangyue Yin, Haoran Luo, Xuanjing Huang, Ben Kao, Jun Liu, Qika Lin [[Code]](https://github.com/xufangzhi/Odyssey-Arena)
 - <span style="color:white;background-color:#00369f;padding:0 0.6em;font-size:0.8em;">Preprint</span> [Orchestra-o1: Omnimodal Agent Orchestration](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=t8H8Ru0AAAAJ&sortby=pubdate&citation_for_view=t8H8Ru0AAAAJ:YOwf2qJgpHMC), Fan Zhang, Vireo Zhang, Shengju Qian, Haoxuan Li, Hao Wu, **<u>Jinyang Wu</u>**, Donghao Zhou, Zhihong Zhu, Zheng Lian, Xin Wang, Pheng-Ann Heng
@@ -97,7 +110,7 @@ Shuo Yang, **<u>Jinyang Wu</u>**, Zhengxi Lu, Yuhao Shen, Fan Zhang, Lang Feng, 
 
 [Beyond Examples: Towards Automated Thought-level In-Context Reasoning for Large Language Models](https://arxiv.org/abs/2411.18478)
 
-**<u>Jinyang Wu</u>**, Mingkuan Feng, Shuai Zhang, Feihu Che, Zhengqi Wen, Chonghua Liao, Ling Yang, Haoran Luo, Zheng Lian, Jianhua Tao
+**<u>Jinyang Wu*</u>**, Mingkuan Feng*, Shuai Zhang, Feihu Che, Zhengqi Wen, Chonghua Liao, Ling Yang, Haoran Luo, Zheng Lian, Jianhua Tao
 
 [[Paper]](https://arxiv.org/abs/2411.18478) | [[Code]](https://github.com/jinyangwu/ThoughtICR) <strong><span class='show_paper_citations' data='t8H8Ru0AAAAJ:aqlVkmm33-oC'></span></strong>
 - We shift in-context reasoning from example-level imitation to reusable thought patterns, enabling automated and efficient reasoning guidance.
@@ -109,7 +122,7 @@ Shuo Yang, **<u>Jinyang Wu</u>**, Zhengxi Lu, Yuhao Shen, Fan Zhang, Lang Feng, 
 
 [TemplateRL: Structured Template-Guided Reinforcement Learning for LLM Reasoning](https://arxiv.org/abs/2505.15692)
 
-**<u>Jinyang Wu</u>**, Chonghua Liao, Mingkuan Feng, Shuai Zhang, Zhengqi Wen, Haoran Luo, Ling Yang, Huazhe Xu, Jianhua Tao
+**<u>Jinyang Wu*</u>**, Chonghua Liao*, Mingkuan Feng*, Shuai Zhang, Zhengqi Wen, Haoran Luo, Ling Yang, Huazhe Xu, Jianhua Tao
 
 [[Paper]](https://arxiv.org/abs/2505.15692) <strong><span class='show_paper_citations' data='t8H8Ru0AAAAJ:d1gkVwhDpl0C'></span></strong>
 - We augment policy optimization with structured templates, improving high-quality rollout generation and stabilizing RL training for reasoning.
@@ -121,10 +134,34 @@ Shuo Yang, **<u>Jinyang Wu</u>**, Zhengxi Lu, Yuhao Shen, Fan Zhang, Lang Feng, 
 
 [AStar: Boosting Multimodal Reasoning with Automated Structured Thinking](https://arxiv.org/abs/2502.02339)
 
-**<u>Jinyang Wu</u>**, Mingkuan Feng, Guocheng Zhai, Shuai Zhang, Zheng Lian, Fangrui Lv, Pengpeng Shao, Ruihan Jin, Zhengqi Wen, Jianhua Tao
+**<u>Jinyang Wu</u>**, Mingkuan Feng, Guocheng Zhai, Shuai Zhang†, Zheng Lian, Fangrui Lv, Pengpeng Shao, Ruihan Jin, Zhengqi Wen, Jianhua Tao†
 
 [[Paper]](https://arxiv.org/abs/2502.02339) <strong><span class='show_paper_citations' data='t8H8Ru0AAAAJ:qjMakFHDy7sC'></span></strong>
 - We build a training-free structured thinking method for multimodal reasoning, retrieving reusable thought cards at test time to guide MLLMs.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026</div><img src='pub_images/trsp.png' alt="TRSP" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Two-Stage Regularization-Based Structured Pruning for LLMs](https://arxiv.org/abs/2505.18232)
+
+Mingkuan Feng*, **<u>Jinyang Wu*</u>**, Siyuan Liu, Shuai Zhang, Ruihan Jin, Feihu Che, Pengpeng Shao, Zhengqi Wen, Jianhua Tao
+
+[[Paper]](https://arxiv.org/abs/2505.18232) <strong><span class='show_paper_citations' data='t8H8Ru0AAAAJ:8k81kl-MbHgC'></span></strong>
+- We introduce a two-stage regularization strategy for structured LLM pruning, preserving more knowledge while reducing model depth without retraining.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026 Oral & Best Paper Candidate</div><img src='pub_images/double.png' alt="Double" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Double: Breaking the Acceleration Limit via Double Retrieval Speculative Parallelism](https://arxiv.org/abs/2601.05524)
+
+Yuhao Shen, Tianyu Liu, Junyi Shen, **<u>Jinyang Wu</u>**, Quan Kong, Li Huan, Cong Wang
+
+[[Paper]](https://arxiv.org/abs/2601.05524) <strong><span class='show_paper_citations' data='t8H8Ru0AAAAJ:roLk4NBRz8UC'></span></strong>
+- We bridge speculative decoding and retrieval-based guidance to push inference acceleration beyond conventional parallel speculative decoding limits.
 </div>
 </div>
 
@@ -133,23 +170,19 @@ Shuo Yang, **<u>Jinyang Wu</u>**, Zhengxi Lu, Yuhao Shen, Fan Zhang, Lang Feng, 
 
 [Pandora's Box or Aladdin's Lamp: A Comprehensive Analysis Revealing the Role of RAG Noise in Large Language Models](https://arxiv.org/abs/2408.13533)
 
-**<u>Jinyang Wu</u>**, Shuai Zhang, Feihu Che, Mingkuan Feng, Pengpeng Shao, Jianhua Tao
+**<u>Jinyang Wu</u>**, Shuai Zhang†, Feihu Che, Mingkuan Feng, Pengpeng Shao, Jianhua Tao†
 
 [[Paper]](https://arxiv.org/abs/2408.13533) | [[Code]](https://github.com/jinyangwu/NoiserBench) <strong><span class='show_paper_citations' data='t8H8Ru0AAAAJ:2osOgNQ5qMEC'></span></strong>
 - We define a linguistic taxonomy of RAG noise and build NoiserBench to study when retrieval noise harms or surprisingly helps LLM reasoning.
 </div>
 </div>
 
-- <span style="color:white;background-color:#00369f;padding:0 0.6em;font-size:0.8em;">ICLR 2026</span> [Exploring Knowledge Purification in Multi-Teacher Knowledge Distillation for LLMs](https://arxiv.org/abs/2602.01064), Ruihan Jin, Pengpeng Shao, Zhengqi Wen, **<u>Jinyang Wu</u>**, Mingkuan Feng, Shuo Yang, Chu Yuan Zhang, Jianhua Tao
-- <span style="color:white;background-color:#00369f;padding:0 0.6em;font-size:0.8em;">ACL 2026 Oral & Best Paper Candidate</span> [Double: Breaking the Acceleration Limit via Double Retrieval Speculative Parallelism](https://arxiv.org/abs/2601.05524), Yuhao Shen, Tianyu Liu, Junyi Shen, **<u>Jinyang Wu</u>**, Quan Kong, Li Huan, Cong Wang
-- <span style="color:white;background-color:#00369f;padding:0 0.6em;font-size:0.8em;">ACL 2026</span> [Two-Stage Regularization-Based Structured Pruning for LLMs](https://arxiv.org/abs/2505.18232), Mingkuan Feng, **<u>Jinyang Wu</u>**, Siyuan Liu, Shuai Zhang, Ruihan Jin, Feihu Che, Pengpeng Shao, Zhengqi Wen, Jianhua Tao
+- <span style="color:white;background-color:#00369f;padding:0 0.6em;font-size:0.8em;">ICLR 2026</span> [Attend to the Active: Structure-Aware Dynamic Attention in LLMs for Compositional Instruction Following](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=t8H8Ru0AAAAJ&pagesize=100&citation_for_view=t8H8Ru0AAAAJ:UebtZRa9Y70C), Fangrui Lv, Yulei Qin, Ruixin Hong, Liang Jian, **<u>Jinyang Wu</u>**, Ke Li, Xing Sun, Changshui Zhang
+- <span style="color:white;background-color:#00369f;padding:0 0.6em;font-size:0.8em;">ICLR 2026</span> [Exploring Knowledge Purification in Multi-Teacher Knowledge Distillation for LLMs](https://arxiv.org/abs/2602.01064), Ruihan Jin, Pengpeng Shao, Zhengqi Wen, **<u>Jinyang Wu†</u>**, Mingkuan Feng, Shuo Yang, Chu Yuan Zhang, Jianhua Tao
 - <span style="color:white;background-color:#00369f;padding:0 0.6em;font-size:0.8em;">AAAI 2026</span> [From Imitation to Discrimination: Toward A Generalized Curriculum Advantage Mechanism Enhancing Cross-Domain Reasoning Tasks](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=t8H8Ru0AAAAJ&pagesize=100&citation_for_view=t8H8Ru0AAAAJ:Zph67rFs4hoC), Changpeng Yang, **<u>Jinyang Wu</u>**, Yuchen Liu, Shuai Zhang, Yang Li, Qiliang Liang, Hongzhen Wang, Shuai Nie, Jiaming Xu, Runyu Shi, Ying Huang, Guoquan Zhang
 - <span style="color:white;background-color:#00369f;padding:0 0.6em;font-size:0.8em;">EMNLP 2025 Findings</span> [RadialRouter: Structured Representation for Efficient and Robust Large Language Models Routing](https://arxiv.org/abs/2506.03880), Ruihan Jin, Pengpeng Shao, Zhengqi Wen, **<u>Jinyang Wu</u>**, Mingkuan Feng, Shuai Zhang, Jianhua Tao
 - <span style="color:white;background-color:#00369f;padding:0 0.6em;font-size:0.8em;">Preprint</span> [DReSS: Data-driven Regularized Structured Streamlining for Large Language Models](https://arxiv.org/abs/2501.17905), Mingkuan Feng, **<u>Jinyang Wu</u>**, Shuai Zhang, Pengpeng Shao, Ruihan Jin, Zhengqi Wen, Jianhua Tao, Feihu Che
-- <span style="color:white;background-color:#00369f;padding:0 0.6em;font-size:0.8em;">Preprint</span> [KS-LLM: Knowledge Selection of Large Language Models with Evidence Document for Question Answering](https://arxiv.org/abs/2404.15660), Xinxin Zheng, Feihu Che, **<u>Jinyang Wu</u>**, Shuai Zhang, Shuai Nie, Kang Liu, Jianhua Tao
-- <span style="color:white;background-color:#00369f;padding:0 0.6em;font-size:0.8em;">Preprint</span> [Can Large Language Models Understand Uncommon Meanings of Common Words?](https://arxiv.org/abs/2405.05741), **<u>Jinyang Wu</u>**, Feihu Che, Xinxin Zheng, Shuai Zhang, Ruihan Jin, Shuai Nie, Pengpeng Shao, Jianhua Tao
 - <span style="color:white;background-color:#00369f;padding:0 0.6em;font-size:0.8em;">Preprint</span> [AffectGPT-RL: Revealing Roles of Reinforcement Learning in Open-Vocabulary Emotion Recognition](https://arxiv.org/abs/2605.06126), Zheng Lian, Fan Zhang, Lan Chen, Yazhou Zhang, Rui Liu, **<u>Jinyang Wu</u>**, Haoyu Chen, Xiaobai Li, Xiaojiang Peng, Bin He, Jianhua Tao
-- <span style="color:white;background-color:#00369f;padding:0 0.6em;font-size:0.8em;">ICLR 2026</span> [Attend to the Active: Structure-Aware Dynamic Attention in LLMs for Compositional Instruction Following](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=t8H8Ru0AAAAJ&pagesize=100&citation_for_view=t8H8Ru0AAAAJ:UebtZRa9Y70C), Fangrui Lv, Yulei Qin, Ruixin Hong, Liang Jian, **<u>Jinyang Wu</u>**, Ke Li, Xing Sun, Changshui Zhang
 
 ## 🧬 Biomedical AI
 - <span style="color:white;background-color:#00369f;padding:0 0.6em;font-size:0.8em;">Briefings in Bioinformatics 2023</span> [KGETCDA: An Efficient Representation Learning Framework Based on Knowledge Graph Encoder from Transformer for Predicting circRNA-Disease Associations](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=t8H8Ru0AAAAJ&pagesize=100&citation_for_view=t8H8Ru0AAAAJ:YsMSGLbcyi4C), **<u>Jinyang Wu</u>**, Zhiwei Ning, Yidong Ding, Ying Wang, Qinke Peng, Laiyi Fu
@@ -178,4 +211,5 @@ Shuo Yang, **<u>Jinyang Wu</u>**, Zhengxi Lu, Yuhao Shen, Fan Zhang, Lang Feng, 
 - **Journal Reviewer**: Expert Systems With Applications (ESWA), ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM).
 
 # 💬 Invited Talks
-- *TBD*: Invited talk details will be updated soon.
+- *2025.05*: I gave a talk about in-context reasoning invited by 第七届北京高校人工智能学术论坛暨清华大学第799期（自动化系）博士生学术论坛圆满落幕。
+- *2025.12*: I gave a talk about memory usage invited by 中国人工智能学会元宇宙专委会.
