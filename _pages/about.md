@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I’m currently a 3nd-year Ph.D. candidate in the Department of Automation at <a href="https://www.tsinghua.edu.cn/en/"><em class="entity-mention" style="--entity-color: #7B61C9">Tsinghua University</em></a>. Prior to this, I earned my B.Eng. degree from the School of Automation Science and Engineering, <a href="https://en.xjtu.edu.cn/"><em class="entity-mention" style="--entity-color: #D45A5A">Xi'an Jiaotong University</em></a> in 2023. I worked closely with [Shuai Zhang](https://scholar.google.com/citations?user=PfILtS8AAAAJ&hl=zh-CN) and [Zhengqi Wen](https://scholar.google.com/citations?user=7SBjscMAAAAJ&hl=zh-CN). I am fortunate to collaborate with [Zheng Lian](https://zeroqiaoba.github.io/Homepage/), [Haoran Luo](https://haoranluo.net/), [Zhengxi Lu](https://lll6gg.github.io/), and [Fan Zhang](https://zfkarl.github.io/).
+I’m currently a 3nd-year Ph.D. candidate in the Department of Automation at <a href="https://www.tsinghua.edu.cn/en/"><em class="entity-mention" style="--entity-color: #7B61C9"><img class="entity-logo" src="https://upload.wikimedia.org/wikipedia/commons/e/ec/Tsinghua_University_Logo.svg" alt="">Tsinghua University</em></a>. Prior to this, I earned my B.Eng. degree from the School of Automation Science and Engineering, <a href="https://en.xjtu.edu.cn/"><em class="entity-mention" style="--entity-color: #D45A5A"><img class="entity-logo" src="/images/logos/xjtu.ico" alt="">Xi'an Jiaotong University</em></a> in 2023. I worked closely with [Shuai Zhang](https://scholar.google.com/citations?user=PfILtS8AAAAJ&hl=zh-CN) and [Zhengqi Wen](https://scholar.google.com/citations?user=7SBjscMAAAAJ&hl=zh-CN). I am fortunate to collaborate with [Zheng Lian](https://zeroqiaoba.github.io/Homepage/), [Haoran Luo](https://haoranluo.net/), [Zhengxi Lu](https://lll6gg.github.io/), and [Fan Zhang](https://zfkarl.github.io/).
 
 My research interests focus on **LLM / MLLM reasoning, planning, and agentic reinforcement learning**. From 2024 to early 2025, my work mainly focus on high-quality and efficient reasoning for LLMs. My current research investigates post-training techniques for general agents, including agent skills, on-policy distillation (OPD), and reinforcement learning (RL).
 
@@ -27,17 +27,17 @@ My research interests focus on **LLM / MLLM reasoning, planning, and agentic rei
 
 <div class="scrollable-area">
   <ul>
-    <li class="news-item"><span class="news-date">2026.06</span><span class="news-body">🔥🔥 We launched <a href="https://arxiv.org/abs/2606.26790">OPID</a>, <a href="https://arxiv.org/abs/2606.30251">TACO</a>, <a href="https://arxiv.org/abs/2606.13707">Orchestra-o1</a>. OPID featured as 🤗 HF Daily Paper #3!</span></li>
-    <li class="news-item"><span class="news-date">2026.05</span><span class="news-body">🔥🔥 Introducing <a href="https://arxiv.org/abs/2605.22177">Maestro</a>, <a href="https://arxiv.org/abs/2605.06234">RobotEQ</a>, <a href="https://arxiv.org/abs/2605.15155">SDAR</a>, <a href="https://arxiv.org/abs/2605.06126">AffectGPT-RL</a>. SDAR featured as 🤗 HF Daily Paper #2!</span></li>
-    <li class="news-item"><span class="news-date">2026.05</span><span class="news-body">🎙️ Attending AliStar Academic Open Day and presenting <a href="https://arxiv.org/abs/2605.22177">Maestro</a> in Beijing 🇨🇳.</span></li>
-    <li class="news-item"><span class="news-date">2026.05</span><span class="news-body">⛱️👏 Attending VALSE 2026 at Wuhan 🇨🇳</span></li>
-    <li class="news-item"><span class="news-date">2026.04</span><span class="news-body">🔥🔥 Our new work <a href="https://arxiv.org/abs/2604.02268">SKILL0</a> was released, featured as 🤗 HF Daily Paper #2!</span></li>
+    <li class="news-item"><span class="news-date">2026.06</span><span class="news-body">🚀🔥 We launched <a href="https://arxiv.org/abs/2606.26790">OPID</a>, <a href="https://arxiv.org/abs/2606.30251">TACO</a>, <a href="https://arxiv.org/abs/2606.13707">Orchestra-o1</a>. OPID featured as 🤗 HF Daily Paper #3!</span></li>
+    <li class="news-item"><span class="news-date">2026.05</span><span class="news-body">🚀🔥 Introducing <a href="https://arxiv.org/abs/2605.22177">Maestro</a>, <a href="https://arxiv.org/abs/2605.06234">RobotEQ</a>, <a href="https://arxiv.org/abs/2605.15155">SDAR</a>, <a href="https://arxiv.org/abs/2605.06126">AffectGPT-RL</a>. SDAR featured as 🤗 HF Daily Paper #2!</span></li>
+    <li class="news-item"><span class="news-date">2026.05</span><span class="news-body">🎙️✨ Attending AliStar Academic Open Day and presenting <a href="https://arxiv.org/abs/2605.22177">Maestro</a> in Beijing 🇨🇳.</span></li>
+    <li class="news-item"><span class="news-date">2026.05</span><span class="news-body">✈️🏛️ Attending VALSE 2026 at Wuhan 🇨🇳</span></li>
+    <li class="news-item"><span class="news-date">2026.04</span><span class="news-body">🚀🔥 Our new work <a href="https://arxiv.org/abs/2604.02268">SKILL0</a> was released, featured as 🤗 HF Daily Paper #2!</span></li>
     <li class="news-item"><span class="news-date">2026.04</span><span class="news-body">🎉🎉 Six papers were accepted by ACL 2026, including one oral and best paper candidate (Double). See you in San Diego 🇺🇸!</span></li>
-    <li class="news-item"><span class="news-date">2026.01</span><span class="news-body">🏖️🥂 Attending AAAI 2026 at Singapore 🇸🇬</span></li>
-    <li class="news-item"><span class="news-date">2025.12</span><span class="news-body">🌐 I attended the 2025 China Metaverse Conference in Wenzhou 🇨🇳.</span></li>
-    <li class="news-item"><span class="news-date">2025.11</span><span class="news-body">🎉 Two papers were accepted by AAAI 2026 (one oral presentation).</span></li>
-    <li class="news-item"><span class="news-date">2025.11</span><span class="news-body">🎉 Attending EMNLP 2025 in Suzhou 🇨🇳</span></li>
-    <li class="news-item"><span class="news-date">2025.05</span><span class="news-body">🎉 NoiserBench appeared at ACL 2025.</span></li>
+    <li class="news-item"><span class="news-date">2026.01</span><span class="news-body">✈️🏖️ Attending AAAI 2026 at Singapore 🇸🇬</span></li>
+    <li class="news-item"><span class="news-date">2025.12</span><span class="news-body">🎤🌐 I attended the 2025 China Metaverse Conference in Wenzhou 🇨🇳.</span></li>
+    <li class="news-item"><span class="news-date">2025.11</span><span class="news-body">🎉🎉 Two papers were accepted by AAAI 2026 (one oral presentation).</span></li>
+    <li class="news-item"><span class="news-date">2025.11</span><span class="news-body">✈️📍 Attending EMNLP 2025 in Suzhou 🇨🇳</span></li>
+    <li class="news-item"><span class="news-date">2025.05</span><span class="news-body">🎉🎉 NoiserBench appeared at ACL 2025.</span></li>
   </ul>
 </div>
 
@@ -139,7 +139,7 @@ Zhengxi Lu, Zhiyuan Yao, **<u>Jinyang Wu</u>**, Chengcheng Han, Qi Gu, Xunliang 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge badge-aaai">AAAI 2026 Oral</div><img src='pub_images/astar.png' alt="AStar" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge badge-acl">AAAI 2026 Oral</div><img src='pub_images/astar.png' alt="AStar" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [AStar: Boosting Multimodal Reasoning with Automated Structured Thinking](https://arxiv.org/abs/2502.02339)
@@ -176,10 +176,10 @@ Yuhao Shen, Tianyu Liu, Junyi Shen, **<u>Jinyang Wu</u>**, Quan Kong, Li Huan, C
 </div>
 
 - <span class="pub-label pub-label-acl">ACL 2026</span> [Two-Stage Regularization-Based Structured Pruning for LLMs](https://arxiv.org/abs/2505.18232), Mingkuan Feng*, **<u>Jinyang Wu*</u>**, Siyuan Liu, Shuai Zhang, Ruihan Jin, Feihu Che, Pengpeng Shao, Zhengqi Wen, Jianhua Tao [[Code]](https://github.com/fmk345/TRSP) <a href="#" class="btn-link btn-bib" data-bib-key="feng2026trsp">BIB</a>
-- <span class="pub-label pub-label-iclr">ICLR 2026</span> [Exploring Knowledge Purification in Multi-Teacher Knowledge Distillation for LLMs](https://arxiv.org/abs/2602.01064), Ruihan Jin, Pengpeng Shao, Zhengqi Wen, **<u>Jinyang Wu†</u>**, Mingkuan Feng, Shuo Yang, Chu Yuan Zhang, Jianhua Tao
-- <span class="pub-label pub-label-iclr">ICLR 2026</span> [Attend to the Active: Structure-Aware Dynamic Attention in LLMs for Compositional Instruction Following](https://iclr.cc/virtual/2026/poster/10006691), Fangrui Lv, Yulei Qin, Ruixin Hong, Liang Jian, **<u>Jinyang Wu</u>**, Ke Li, Xing Sun, Changshui Zhang
-- <span class="pub-label pub-label-aaai">AAAI 2026</span> [From Imitation to Discrimination: Toward A Generalized Curriculum Advantage Mechanism Enhancing Cross-Domain Reasoning Tasks](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=t8H8Ru0AAAAJ&pagesize=100&citation_for_view=t8H8Ru0AAAAJ:Zph67rFs4hoC), Changpeng Yang*, **<u>Jinyang Wu*</u>**, Yuchen Liu, Shuai Zhang, Yang Li, Qiliang Liang, Hongzhen Wang, Shuai Nie, Jiaming Xu, Runyu Shi, Ying Huang, Guoquan Zhang
-- <span class="pub-label pub-label-emnlp">EMNLP 2025</span> [RadialRouter: Structured Representation for Efficient and Robust Large Language Models Routing](https://arxiv.org/abs/2506.03880), Ruihan Jin, Pengpeng Shao, Zhengqi Wen, **<u>Jinyang Wu</u>**, Mingkuan Feng, Shuai Zhang, Jianhua Tao
+- <span class="pub-label pub-label-acl">ICLR 2026</span> [Exploring Knowledge Purification in Multi-Teacher Knowledge Distillation for LLMs](https://arxiv.org/abs/2602.01064), Ruihan Jin, Pengpeng Shao, Zhengqi Wen, **<u>Jinyang Wu†</u>**, Mingkuan Feng, Shuo Yang, Chu Yuan Zhang, Jianhua Tao
+- <span class="pub-label pub-label-acl">ICLR 2026</span> [Attend to the Active: Structure-Aware Dynamic Attention in LLMs for Compositional Instruction Following](https://iclr.cc/virtual/2026/poster/10006691), Fangrui Lv, Yulei Qin, Ruixin Hong, Liang Jian, **<u>Jinyang Wu</u>**, Ke Li, Xing Sun, Changshui Zhang
+- <span class="pub-label pub-label-acl">AAAI 2026</span> [From Imitation to Discrimination: Toward A Generalized Curriculum Advantage Mechanism Enhancing Cross-Domain Reasoning Tasks](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=t8H8Ru0AAAAJ&pagesize=100&citation_for_view=t8H8Ru0AAAAJ:Zph67rFs4hoC), Changpeng Yang*, **<u>Jinyang Wu*</u>**, Yuchen Liu, Shuai Zhang, Yang Li, Qiliang Liang, Hongzhen Wang, Shuai Nie, Jiaming Xu, Runyu Shi, Ying Huang, Guoquan Zhang
+- <span class="pub-label pub-label-acl">EMNLP 2025</span> [RadialRouter: Structured Representation for Efficient and Robust Large Language Models Routing](https://arxiv.org/abs/2506.03880), Ruihan Jin, Pengpeng Shao, Zhengqi Wen, **<u>Jinyang Wu</u>**, Mingkuan Feng, Shuai Zhang, Jianhua Tao
 - <span class="pub-label pub-label-preprint">Preprint</span> [DReSS: Data-driven Regularized Structured Streamlining for Large Language Models](https://arxiv.org/abs/2501.17905), Mingkuan Feng, **<u>Jinyang Wu</u>**, Shuai Zhang, Pengpeng Shao, Ruihan Jin, Zhengqi Wen, Jianhua Tao, Feihu Che
 - <span class="pub-label pub-label-preprint">Preprint</span> [AffectGPT-RL: Revealing Roles of Reinforcement Learning in Open-Vocabulary Emotion Recognition](https://arxiv.org/abs/2605.06126), Zheng Lian, Fan Zhang, Lan Chen, Yazhou Zhang, Rui Liu, **<u>Jinyang Wu</u>**, Haoyu Chen, Xiaobai Li, Xiaojiang Peng, Bin He, Jianhua Tao
 

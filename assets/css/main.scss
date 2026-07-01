@@ -151,8 +151,7 @@ h1:before, .anchor:before {
 }
 
 .badge-aaai {
-    color: #5F3BA8;
-    background: #D9CCFF;
+    background: linear-gradient(135deg, #1A73E8, #174EA6);
 }
 
 .badge-preprint {
@@ -243,6 +242,9 @@ h1:before, .anchor:before {
 }
 
 .entity-mention {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
     color: var(--entity-color);
     font-style: normal;
     font-weight: 600;
@@ -253,6 +255,15 @@ h1:before, .anchor:before {
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone;
     transition: box-shadow 0.25s ease, background 0.25s ease;
+}
+
+.entity-logo {
+    width: 1em;
+    height: 1em;
+    object-fit: contain;
+    flex: 0 0 auto;
+    border-radius: 2px;
+    box-shadow: none !important;
 }
 
 .entity-mention:hover {
@@ -344,19 +355,11 @@ a:has(> .entity-mention):hover {
     background: linear-gradient(135deg, #1A73E8, #174EA6);
 }
 
-.pub-label-aaai {
-    color: #5F3BA8;
-    background: #D9CCFF;
-}
-
-.pub-label-iclr {
-    color: #fff;
-    background: #2E7D5A;
-}
-
+.pub-label-aaai,
+.pub-label-iclr,
 .pub-label-emnlp {
     color: #fff;
-    background: #A66A00;
+    background: linear-gradient(135deg, #1A73E8, #174EA6);
 }
 
 .pub-label-preprint {
