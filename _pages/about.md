@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I’m currently a 3nd-year Ph.D. candidate in the Department of Automation at <a href="https://www.tsinghua.edu.cn/en/"><em class="entity-mention" style="--entity-color: #7B0016">Tsinghua University</em></a>. Prior to this, I earned my B.Eng. degree from the School of Automation Science and Engineering, <a href="https://en.xjtu.edu.cn/"><em class="entity-mention" style="--entity-color: #B31B1B">Xi'an Jiaotong University</em></a> in 2023. I worked closely with [Shuai Zhang](https://scholar.google.com/citations?user=PfILtS8AAAAJ&hl=zh-CN) and [Zhengqi Wen](https://scholar.google.com/citations?user=7SBjscMAAAAJ&hl=zh-CN). I am fortunate to collaborate with [Zheng Lian](https://zeroqiaoba.github.io/Homepage/), [Haoran Luo](https://haoranluo.net/), [Zhengxi Lu](https://lll6gg.github.io/), and [Fan Zhang](https://zfkarl.github.io/).
+I’m currently a 3nd-year Ph.D. candidate in the Department of Automation at <a href="https://www.tsinghua.edu.cn/en/"><em class="entity-mention" style="--entity-color: #7B61C9">Tsinghua University</em></a>. Prior to this, I earned my B.Eng. degree from the School of Automation Science and Engineering, <a href="https://en.xjtu.edu.cn/"><em class="entity-mention" style="--entity-color: #D45A5A">Xi'an Jiaotong University</em></a> in 2023. I worked closely with [Shuai Zhang](https://scholar.google.com/citations?user=PfILtS8AAAAJ&hl=zh-CN) and [Zhengqi Wen](https://scholar.google.com/citations?user=7SBjscMAAAAJ&hl=zh-CN). I am fortunate to collaborate with [Zheng Lian](https://zeroqiaoba.github.io/Homepage/), [Haoran Luo](https://haoranluo.net/), [Zhengxi Lu](https://lll6gg.github.io/), and [Fan Zhang](https://zfkarl.github.io/).
 
 My research interests focus on **LLM / MLLM reasoning, planning, and agentic reinforcement learning**. From 2024 to early 2025, my work mainly focus on high-quality and efficient reasoning for LLMs. My current research investigates post-training techniques for general agents, including agent skills, on-policy distillation (OPD), and reinforcement learning (RL).
 
@@ -29,10 +29,12 @@ My research interests focus on **LLM / MLLM reasoning, planning, and agentic rei
   <ul>
     <li class="news-item"><span class="news-date">2026.06</span><span class="news-body">🔥🔥 We launched <a href="https://arxiv.org/abs/2606.26790">OPID</a>, <a href="https://arxiv.org/abs/2606.30251">TACO</a>, and <a href="https://arxiv.org/abs/2606.13707">Orchestra-o1</a>. OPID was featured as 🤗 HF Daily Paper #3!</span></li>
     <li class="news-item"><span class="news-date">2026.05</span><span class="news-body">🔥🔥 Introducing <a href="https://arxiv.org/abs/2605.22177">Maestro</a>, <a href="https://arxiv.org/abs/2605.06234">RobotEQ</a>, <a href="https://arxiv.org/abs/2605.15155">SDAR</a>, <a href="https://arxiv.org/abs/2605.06126">AffectGPT-RL</a>. SDAR was featured as 🤗 HF Daily Paper #2!</span></li>
+    <li class="news-item"><span class="news-date">2026.05</span><span class="news-body">🎙️ I attended AliStar Academic Open Day and presented <a href="https://arxiv.org/abs/2605.22177">Maestro</a> in Beijing 🇨🇳.</span></li>
     <li class="news-item"><span class="news-date">2026.05</span><span class="news-body">⛱️👏 Attending VALSE 2026 at Wuhan 🇨🇳</span></li>
     <li class="news-item"><span class="news-date">2026.04</span><span class="news-body">🔥🔥 Our new work <a href="https://arxiv.org/abs/2604.02268">SKILL0</a> was released, featured as 🤗 HF Daily Paper #2!</span></li>
     <li class="news-item"><span class="news-date">2026.04</span><span class="news-body">🎉🎉 Six papers were accepted by ACL 2026, including one oral and best paper candidate (Double). See you in San Diego 🇺🇸!</span></li>
     <li class="news-item"><span class="news-date">2026.01</span><span class="news-body">🏖️🥂 Attending AAAI 2026 at Singapore 🇸🇬</span></li>
+    <li class="news-item"><span class="news-date">2025.12</span><span class="news-body">🌐 I attended the 2025 China Metaverse Conference in Wenzhou 🇨🇳.</span></li>
     <li class="news-item"><span class="news-date">2025.11</span><span class="news-body">🎉🎉 Two papers were accepted by AAAI 2026 (one oral presentation).</span></li>
     <li class="news-item"><span class="news-date">2025.11</span><span class="news-body">🎉🎉 Attending EMNLP 2025 in Suzhou 🇨🇳</span></li>
     <li class="news-item"><span class="news-date">2025.05</span><span class="news-body">🎉🎉 NoiserBench appeared at ACL 2025.</span></li>
@@ -190,8 +192,9 @@ Yuhao Shen, Tianyu Liu, Junyi Shen, **<u>Jinyang Wu</u>**, Quan Kong, Li Huan, C
 - Teaching Assistant, Intelligent Speech Processing, undergraduate interdisciplinary innovation training course.
 
 # 🎖 Honors and Awards
-- *2026*: Outstanding Teaching Assistant, Tsinghua University.
+- *2026*: Outstanding Student Cadre, Tsinghua University.
 - *2026*: Merit Student, Tsinghua University.
+- *2025*: Outstanding Teaching Assistant, Tsinghua University.
 - *2025*: First-Class Scholarship of Tsinghua University.
 - *2024*: Second-Class Scholarship of Tsinghua University.
 - *2023*: Outstanding Graduate, Shaanxi Province.

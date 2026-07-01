@@ -151,8 +151,8 @@ h1:before, .anchor:before {
 }
 
 .badge-aaai {
-    color: #6A3FB5;
-    background: #F3E8FD;
+    color: #5F3BA8;
+    background: #D9CCFF;
 }
 
 .badge-preprint {
@@ -340,31 +340,31 @@ a:has(> .entity-mention):hover {
 }
 
 .pub-label-acl {
-    color: #1A73E8;
-    background: #E8F0FE;
+    color: #fff;
+    background: linear-gradient(135deg, #1A73E8, #174EA6);
 }
 
 .pub-label-aaai {
-    color: #6A3FB5;
-    background: #F3E8FD;
+    color: #5F3BA8;
+    background: #D9CCFF;
 }
 
 .pub-label-iclr {
-    color: #137333;
-    background: #E6F4EA;
+    color: #fff;
+    background: #2E7D5A;
 }
 
 .pub-label-emnlp {
-    color: #8A5B00;
-    background: #FEF7E0;
+    color: #fff;
+    background: #A66A00;
 }
 
 .pub-label-preprint {
-    color: #B06000;
-    background: #FEEFE3;
+    color: #fff;
+    background: linear-gradient(135deg, #F29900, #B06000);
 }
 
 .pub-label-journal {
-    color: #3F51B5;
-    background: #E8EAF6;
+    color: #fff;
+    background: #3F51B5;
 }
