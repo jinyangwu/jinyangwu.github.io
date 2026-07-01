@@ -163,7 +163,7 @@ Mingkuan Feng*, **<u>Jinyang Wu*</u>**, Siyuan Liu, Shuai Zhang, Ruihan Jin, Fei
 
 Yuhao Shen, Tianyu Liu, Junyi Shen, **<u>Jinyang Wu</u>**, Quan Kong, Li Huan, Cong Wang
 
-[Paper](https://arxiv.org/abs/2601.05524){:.btn-link .btn-paper} <strong><span class='show_paper_citations' data='t8H8Ru0AAAAJ:roLk4NBRz8UC'></span></strong>
+[Paper](https://arxiv.org/abs/2601.05524){:.btn-link .btn-paper} [Code](https://github.com/Sylvan820/Double1){:.btn-link .btn-code}<strong><span class='show_paper_citations' data='t8H8Ru0AAAAJ:roLk4NBRz8UC'></span></strong>
 - We bridge speculative decoding and retrieval-based guidance to push inference acceleration beyond conventional parallel speculative decoding limits.
 </div>
 </div>
@@ -214,5 +214,5 @@ Yuhao Shen, Tianyu Liu, Junyi Shen, **<u>Jinyang Wu</u>**, Quan Kong, Li Huan, C
 - **Journal Reviewer**: Expert Systems With Applications (ESWA), ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM).
 
 # 💬 Invited Talks
-- *2025.05*: I gave an invited talk on in-context reasoning at the 7th Beijing Universities Artificial Intelligence Academic Forum.
 - *2025.12*: I gave an invited talk on memory usage, hosted by the Metaverse Technical Committee of the Chinese Association for Artificial Intelligence.
+- *2025.05*: I gave an invited talk on in-context reasoning at the 7th Beijing Universities Artificial Intelligence Academic Forum.
