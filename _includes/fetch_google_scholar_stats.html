@@ -1,19 +1,49 @@
 <script>
     $(document).ready(function () {
+        var fallbackScholarData = {
+            citedby: 365,
+            publications: {
+                't8H8Ru0AAAAJ:0EnyYjriUFMC': { num_citations: 9 },
+                't8H8Ru0AAAAJ:ufrVoPGSRksC': { num_citations: 16 },
+                't8H8Ru0AAAAJ:KlAtU1dfN6UC': { num_citations: 1 },
+                't8H8Ru0AAAAJ:4DMP91E08xMC': { num_citations: 0 },
+                't8H8Ru0AAAAJ:kNdYIx-mwKoC': { num_citations: 34 },
+                't8H8Ru0AAAAJ:aqlVkmm33-oC': { num_citations: 75 },
+                't8H8Ru0AAAAJ:d1gkVwhDpl0C': { num_citations: 42 },
+                't8H8Ru0AAAAJ:qjMakFHDy7sC': { num_citations: 33 },
+                't8H8Ru0AAAAJ:roLk4NBRz8UC': { num_citations: 10 },
+                't8H8Ru0AAAAJ:2osOgNQ5qMEC': { num_citations: 30 }
+            }
+        };
+
+        function renderScholarData(data) {
+            if (!data) {
+                return;
+            }
+            var totalCitation = data['citedby']
+            var totalCitationEle = document.getElementById('total_cit')
+            if (totalCitationEle) {
+                totalCitationEle.innerHTML = totalCitation;
+            }
+            var citationEles = document.getElementsByClassName('show_paper_citations')
+            Array.prototype.forEach.call(citationEles, element => {
+                var paperId = element.getAttribute('data')
+                if (data['publications'] && data['publications'][paperId]) {
+                    var numCitations = data['publications'][paperId]['num_citations']
+                    element.innerHTML = numCitations;
+                }
+            });
+        }
+
+        renderScholarData(fallbackScholarData);
+
         {% if site.google_scholar_stats_use_cdn %}
         var gsDataBaseUrl = 'https://cdn.jsdelivr.net/gh/{{ site.repository }}@'
         {% else %}
         var gsDataBaseUrl = 'https://raw.githubusercontent.com/{{ site.repository }}/'
         {% endif %}
         $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json", function (data) {
-            var totalCitation = data['citedby']
-            document.getElementById('total_cit').innerHTML = totalCitation;
-            var citationEles = document.getElementsByClassName('show_paper_citations')
-            Array.prototype.forEach.call(citationEles, element => {
-                var paperId = element.getAttribute('data')
-                var numCitations = data['publications'][paperId]['num_citations']
-                element.innerHTML = '| Citations: ' + numCitations;
-            });
+            renderScholarData(data);
         });
     })
 </script>
