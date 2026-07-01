@@ -233,6 +233,55 @@ h1:before, .anchor:before {
     margin-right: 0;
 }
 
+.wechat-hover {
+    position: relative;
+    cursor: default;
+}
+
+.wechat-qr {
+    position: absolute;
+    left: calc(100% + 12px);
+    top: 50%;
+    z-index: 1001;
+    width: 168px;
+    padding: 8px;
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.18);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-50%) translateX(-4px);
+    transition: opacity 0.18s ease, transform 0.18s ease, visibility 0.18s ease;
+    pointer-events: none;
+}
+
+.wechat-qr img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: none;
+}
+
+.wechat-hover:hover .wechat-qr {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(-50%) translateX(0);
+}
+
+@media (max-width: 64em) {
+    .wechat-qr {
+        left: 0;
+        top: calc(100% + 8px);
+        transform: translateY(0) translateX(0);
+    }
+
+    .wechat-hover:hover .wechat-qr {
+        transform: translateY(0) translateX(0);
+    }
+}
+
 .bib-tooltip {
     position: absolute;
     z-index: 1000;

@@ -31,6 +31,12 @@
       {% if author.email %}
         <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>
       {% endif %}
+      {% if author.wechat_qr %}
+        <li class="wechat-hover">
+          <span><i class="fab fa-fw fa-weixin" aria-hidden="true"></i> WeChat</span>
+          <span class="wechat-qr"><img src="{{ author.wechat_qr | relative_url }}" alt="WeChat QR code"></span>
+        </li>
+      {% endif %}
       {% if author.keybase %}
         <li><a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i> Keybase</a></li>
       {% endif %}
