@@ -42,7 +42,7 @@ My research interests focus on **LLM / MLLM reasoning, planning, and agentic rei
   </ul>
 </div>
 
-# 📝 Publications 
+# 📝 Selected Publications 
 
 <small>* Equal contribution. † Corresponding author.</small>
 
