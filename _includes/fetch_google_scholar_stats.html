@@ -30,7 +30,7 @@
                 var paperId = element.getAttribute('data')
                 if (data['publications'] && data['publications'][paperId]) {
                     var numCitations = data['publications'][paperId]['num_citations']
-                    element.innerHTML = numCitations;
+                    element.innerHTML = Number(numCitations) > 0 ? numCitations : '';
                 }
             });
         }
