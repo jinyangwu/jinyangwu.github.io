@@ -31,13 +31,14 @@ My research interests focus on **LLM / MLLM reasoning, planning, and agentic rei
     <li class="news-item"><span class="news-date">2026.05</span><span class="news-body">🎙️✨ Attending AliStar Academic Open Day and presenting <a href="https://arxiv.org/abs/2605.22177">Maestro</a> in Beijing 🇨🇳.</span></li>
     <li class="news-item"><span class="news-date">2026.05</span><span class="news-body">🚀🔥 Introducing <a href="https://arxiv.org/abs/2605.22177">Maestro</a>, <a href="https://arxiv.org/abs/2605.06234">RobotEQ</a>, <a href="https://arxiv.org/abs/2605.15155">SDAR</a>, <a href="https://arxiv.org/abs/2605.06126">AffectGPT-RL</a>. SDAR featured as 🤗 HF Daily Paper #2!</span></li>
     <li class="news-item"><span class="news-date">2026.05</span><span class="news-body">✈️🏛️ Attending VALSE 2026 at Wuhan 🇨🇳</span></li>
-    <li class="news-item"><span class="news-date">2026.04</span><span class="news-body">🚀🔥 Our new work <a href="https://arxiv.org/abs/2604.02268">SKILL0</a> was released, featured as 🤗 HF Daily Paper #2!</span></li>
+    <li class="news-item"><span class="news-date">2026.04</span><span class="news-body">🚀🔥 Our new work <a href="https://arxiv.org/abs/2604.02268">SKILL0</a> on skill internalization was released, featured as 🤗 HF Daily Paper #2!</span></li>
     <li class="news-item"><span class="news-date">2026.04</span><span class="news-body">🎉🎉 Six papers were accepted by ACL 2026, including one oral and best paper candidate (Double). See you in San Diego 🇺🇸!</span></li>
+    <li class="news-item"><span class="news-date">2026.02</span><span class="news-body">🎉🎉 Two papers accepted by ICLR 2026! </span></li>
     <li class="news-item"><span class="news-date">2026.01</span><span class="news-body">✈️🏖️ Attending AAAI 2026 at Singapore 🇸🇬</span></li>
     <li class="news-item"><span class="news-date">2025.12</span><span class="news-body">🎤🌐 I attended the 2025 China Metaverse Conference in Wenzhou 🇨🇳.</span></li>
-    <li class="news-item"><span class="news-date">2025.11</span><span class="news-body">🎉🎉 Two papers were accepted by AAAI 2026 (one oral presentation).</span></li>
+    <li class="news-item"><span class="news-date">2025.11</span><span class="news-body">🎉🎉 Two papers accepted by AAAI 2026 (one oral presentation)!</span></li>
     <li class="news-item"><span class="news-date">2025.11</span><span class="news-body">✈️📍 Attending EMNLP 2025 in Suzhou 🇨🇳</span></li>
-    <li class="news-item"><span class="news-date">2025.05</span><span class="news-body">🎉🎉 NoiserBench appeared at ACL 2025.</span></li>
+    <li class="news-item"><span class="news-date">2025.05</span><span class="news-body">🎉🎉 NoiserBench accepted by ACL 2025!</span></li>
   </ul>
 </div>
 
