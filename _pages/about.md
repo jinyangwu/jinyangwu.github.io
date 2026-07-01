@@ -24,7 +24,7 @@ My research interests focus on LLM / MLLM reasoning and agentic reinforcement le
 🐈 Collaboration: I am looking for motivated collaborators interested in the above topics. If you would like to explore these directions together, feel free to contact me. UG/MSc students are also welcomed! 🌱
 
 # 🔥 News
-- *2026.06*: &nbsp;🔥🔥 We launched [OPID](https://arxiv.org/abs/2606.26790), [TACO](https://arxiv.org/abs/2606.30251), and [Orchestra-o1](https://arxiv.org/abs/2606.13707) were released. OPID was featured as 🤗 HF Daily Paper #3!
+- *2026.06*: &nbsp;🔥🔥 We launched [OPID](https://arxiv.org/abs/2606.26790), [TACO](https://arxiv.org/abs/2606.30251), and [Orchestra-o1](https://arxiv.org/abs/2606.13707). OPID was featured as 🤗 HF Daily Paper #3!
 - *2026.05*: &nbsp;🔥🔥 Introducing [Maestro](https://arxiv.org/abs/2605.22177), [RobotEQ](https://arxiv.org/abs/2605.06234), [SDAR](https://arxiv.org/abs/2605.15155), [AffectGPT-RL](https://arxiv.org/abs/2605.06126). SDAR was featured as 🤗 HF Daily Paper #2!
 - *2026.05*: &nbsp;⛱️👏 Attending VALSE 2026 at Wuhan 🇨🇳
 - *2026.04*: &nbsp;🔥🔥 Our new work [SKILL0](https://arxiv.org/abs/2604.02268) was released, featured as 🤗 HF Daily Paper #2!
