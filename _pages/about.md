@@ -17,6 +17,8 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
+# About Me
+
 I’m currently a 3rd-year Ph.D. candidate in the Department of Automation at <a href="https://www.tsinghua.edu.cn/en/"><em class="entity-mention" style="--entity-color: #7B61C9"><img class="entity-logo" src="/images/logos/thu.png" alt="">Tsinghua University</em></a>. Prior to this, I earned my B.Eng. degree from the School of Automation Science and Engineering, <a href="https://en.xjtu.edu.cn/"><em class="entity-mention" style="--entity-color: #D45A5A"><img class="entity-logo" src="/images/logos/xjtu.svg" alt="">Xi'an Jiaotong University</em></a> in 2023. I worked closely with [Shuai Zhang](https://scholar.google.com/citations?user=PfILtS8AAAAJ&hl=zh-CN) and [Zhengqi Wen](https://scholar.google.com/citations?user=7SBjscMAAAAJ&hl=zh-CN). I am fortunate to collaborate with [Zheng Lian](https://zeroqiaoba.github.io/Homepage/), [Haoran Luo](https://haoranluo.net/), [Zhengxi Lu](https://lll6gg.github.io/), and [Fan Zhang](https://zfkarl.github.io/).
 
 My research interests focus on **LLM / MLLM reasoning, planning, and agentic reinforcement learning**. From 2024 to early 2025, my work mainly focus on high-quality and efficient reasoning for LLMs. My current research investigates post-training techniques for general agents, including agent skills, on-policy distillation (OPD), and reinforcement learning (RL).
@@ -42,7 +44,7 @@ My research interests focus on **LLM / MLLM reasoning, planning, and agentic rei
   </ul>
 </div>
 
-# 📝 Selected Publications 
+# 📝 Selected Publication（[Full List](https://scholar.google.com/citations?hl=en&user=t8H8Ru0AAAAJ)）
 
 <small>* Equal contribution. † Corresponding author.</small>
 
@@ -108,11 +110,16 @@ Zhengxi Lu, Zhiyuan Yao, **<u>Jinyang Wu</u>**, Chengcheng Han, Qi Gu, Xunliang 
 </div>
 </div>
 
-- <span class="pub-label pub-label-preprint">Preprint</span> [TACO: Tool-Augmented Credit Optimization for Agentic Tool Use](https://arxiv.org/abs/2606.30251), Mingkuan Feng*, **<u>Jinyang Wu*,†</u>**, Hao Gu, Fangrui Lv, Ruihan Jin, Chuyuan Zhang, Zhengqi Wen, Jianhua Tao
-- <span class="pub-label pub-label-preprint">Preprint</span> [SDAR: Self-Distilled Agentic Reinforcement Learning](https://arxiv.org/abs/2605.15155), Zhengxi Lu, Zhiyuan Yao, Zhuowen Han, Zi-Han Wang, **<u>Jinyang Wu</u>**, Qi Gu, Xunliang Cai, Weiming Lu, Jun Xiao, Yueting Zhuang, Yongliang Shen [[Code]](https://github.com/ZJU-REAL/SDAR)
-- <span class="pub-label pub-label-preprint">Preprint</span> [OdysseyArena: Benchmarking Large Language Models For Long-Horizon, Active and Inductive Interactions](https://arxiv.org/abs/2602.05843), Fangzhi Xu, Hang Yan, Qiushi Sun, **<u>Jinyang Wu</u>**, Zixian Huang, Muye Huang, Jingyang Gong, Zichen Ding, Kanzhi Cheng, Yian Wang, Xinyu Che, Zeyi Sun, Jian Zhang, Zhangyue Yin, Haoran Luo, Xuanjing Huang, Ben Kao, Jun Liu, Qika Lin [[Code]](https://github.com/xufangzhi/Odyssey-Arena)
-- <span class="pub-label pub-label-preprint">Preprint</span> [Orchestra-o1: Omnimodal Agent Orchestration](https://arxiv.org/abs/2606.13707), Fan Zhang, Vireo Zhang, Shengju Qian, Haoxuan Li, Hao Wu, **<u>Jinyang Wu</u>**, Donghao Zhou, Zhihong Zhu, Zheng Lian, Xin Wang, Pheng-Ann Heng
-- <span class="pub-label pub-label-preprint">Preprint</span> [RobotEQ: Transitioning from Passive Intelligence to Active Intelligence in Embodied AI](https://arxiv.org/abs/2605.06234), Kuofei Fang, Xinyi Che, Haomin Ouyang, Shufan Zhang, Xuehao Wang, Qi Liu, Liyi Liu, Chenqi Zhang, Wenxi Cai, Wenyu Dai, **<u>Jinyang Wu</u>**, Fan Zhang, Haoyu Chen, Bin He, Zheng Lian
+- <span class="pub-label pub-label-preprint">Preprint</span> [TACO: Tool-Augmented Credit Optimization for Agentic Tool Use](https://arxiv.org/abs/2606.30251), Mingkuan Feng*, **<u>Jinyang Wu*,†</u>**, Hao Gu, Fangrui Lv, Ruihan Jin, Chuyuan Zhang, Zhengqi Wen, Jianhua Tao<br>
+  [<img src='./images/svgs/huggingface_logo.svg' alt="">HF](https://huggingface.co/papers/2606.30251){:.btn-link .btn-hf} <a href="https://scholar.google.com/scholar?q=TACO%3A%20Tool-Augmented%20Credit%20Optimization%20for%20Agentic%20Tool%20Use" class="btn-link btn-scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i></a> <a href="#" class="btn-link btn-bib" data-bib-key="feng2026taco">BIB</a>
+- <span class="pub-label pub-label-preprint">Preprint</span> [SDAR: Self-Distilled Agentic Reinforcement Learning](https://arxiv.org/abs/2605.15155), Zhengxi Lu, Zhiyuan Yao, Zhuowen Han, Zi-Han Wang, **<u>Jinyang Wu</u>**, Qi Gu, Xunliang Cai, Weiming Lu, Jun Xiao, Yueting Zhuang, Yongliang Shen<br>
+  [<img src='./images/svgs/huggingface_logo.svg' alt="">HF](https://huggingface.co/papers/2605.15155){:.btn-link .btn-hf} <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=t8H8Ru0AAAAJ&citation_for_view=t8H8Ru0AAAAJ:ULOm3_A8WrAC" class="btn-link btn-scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i> <span class='show_paper_citations hide-low-citation' data='t8H8Ru0AAAAJ:ULOm3_A8WrAC'>--</span></a> [Code](https://github.com/ZJU-REAL/SDAR){:.btn-link .btn-code} <a href="#" class="btn-link btn-bib" data-bib-key="lu2026sdar">BIB</a>
+- <span class="pub-label pub-label-preprint">Preprint</span> [OdysseyArena: Benchmarking Large Language Models For Long-Horizon, Active and Inductive Interactions](https://arxiv.org/abs/2602.05843), Fangzhi Xu, Hang Yan, Qiushi Sun, **<u>Jinyang Wu</u>**, Zixian Huang, Muye Huang, Jingyang Gong, Zichen Ding, Kanzhi Cheng, Yian Wang, Xinyu Che, Zeyi Sun, Jian Zhang, Zhangyue Yin, Haoran Luo, Xuanjing Huang, Ben Kao, Jun Liu, Qika Lin<br>
+  [<img src='./images/svgs/huggingface_logo.svg' alt="">HF](https://huggingface.co/datasets/xufangzhi/OdysseyArena){:.btn-link .btn-hf} <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=t8H8Ru0AAAAJ&citation_for_view=t8H8Ru0AAAAJ:5nxA0vEk-isC" class="btn-link btn-scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i> <span class='show_paper_citations hide-low-citation' data='t8H8Ru0AAAAJ:5nxA0vEk-isC'>--</span></a> [Code](https://github.com/xufangzhi/Odyssey-Arena){:.btn-link .btn-code} <a href="#" class="btn-link btn-bib" data-bib-key="xu2026odysseyarena">BIB</a>
+- <span class="pub-label pub-label-preprint">Preprint</span> [Orchestra-o1: Omnimodal Agent Orchestration](https://arxiv.org/abs/2606.13707), Fan Zhang, Vireo Zhang, Shengju Qian, Haoxuan Li, Hao Wu, **<u>Jinyang Wu</u>**, Donghao Zhou, Zhihong Zhu, Zheng Lian, Xin Wang, Pheng-Ann Heng<br>
+  [<img src='./images/svgs/huggingface_logo.svg' alt="">HF](https://huggingface.co/papers/2606.13707){:.btn-link .btn-hf} <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=t8H8Ru0AAAAJ&citation_for_view=t8H8Ru0AAAAJ:YOwf2qJgpHMC" class="btn-link btn-scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i> <span class='show_paper_citations hide-low-citation' data='t8H8Ru0AAAAJ:YOwf2qJgpHMC'>--</span></a> [Code](https://github.com/zfkarl/Orchestra-o1){:.btn-link .btn-code} <a href="#" class="btn-link btn-bib" data-bib-key="zhang2026orchestra">BIB</a>
+- <span class="pub-label pub-label-preprint">Preprint</span> [RobotEQ: Transitioning from Passive Intelligence to Active Intelligence in Embodied AI](https://arxiv.org/abs/2605.06234), Kuofei Fang, Xinyi Che, Haomin Ouyang, Shufan Zhang, Xuehao Wang, Qi Liu, Liyi Liu, Chenqi Zhang, Wenxi Cai, Wenyu Dai, **<u>Jinyang Wu</u>**, Fan Zhang, Haoyu Chen, Bin He, Zheng Lian<br>
+  [<img src='./images/svgs/huggingface_logo.svg' alt="">HF](https://huggingface.co/datasets/Tongji-Emotion/Robot-EQ){:.btn-link .btn-hf} <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=t8H8Ru0AAAAJ&citation_for_view=t8H8Ru0AAAAJ:3fE2CSJIrl8C" class="btn-link btn-scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i> <span class='show_paper_citations hide-low-citation' data='t8H8Ru0AAAAJ:3fE2CSJIrl8C'>--</span></a> <a href="#" class="btn-link btn-bib" data-bib-key="fang2026roboteq">BIB</a>
 
 ## 🧠 LLM Reasoning
 
@@ -140,7 +147,7 @@ Zhengxi Lu, Zhiyuan Yao, **<u>Jinyang Wu</u>**, Chengcheng Han, Qi Gu, Xunliang 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge badge-acl">AAAI 2026 Oral</div><img src='pub_images/astar.png' alt="AStar" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge badge-acl">AAAI 2026</div><img src='pub_images/astar.png' alt="AStar" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [AStar: Boosting Multimodal Reasoning with Automated Structured Thinking](https://arxiv.org/abs/2502.02339)
@@ -148,11 +155,12 @@ Zhengxi Lu, Zhiyuan Yao, **<u>Jinyang Wu</u>**, Chengcheng Han, Qi Gu, Xunliang 
 **<u>Jinyang Wu</u>**, Mingkuan Feng, Guocheng Zhai, Shuai Zhang, Zheng Lian, Fangrui Lv, Pengpeng Shao, Ruihan Jin, Zhengqi Wen, Jianhua Tao
 
 [Paper](https://arxiv.org/abs/2502.02339){:.btn-link .btn-paper} [<img src='./images/svgs/huggingface_logo.svg' alt="">HF](https://huggingface.co/papers/2502.02339){:.btn-link .btn-hf} <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=t8H8Ru0AAAAJ&citation_for_view=t8H8Ru0AAAAJ:qjMakFHDy7sC" class="btn-link btn-scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i> <span class='show_paper_citations' data='t8H8Ru0AAAAJ:qjMakFHDy7sC'>--</span></a> <a href="#" class="btn-link btn-bib" data-bib-key="wu2026astar">BIB</a>
+<span class="paper-note">AAAI 2026 Oral</span>
 - We build a training-free structured thinking method for multimodal reasoning, retrieving reusable thought cards at test time to guide MLLMs.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge badge-acl">ACL 2026 Oral & Best Paper Candidate</div><img src='pub_images/double.png' alt="Double" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge badge-acl">ACL 2026</div><img src='pub_images/double.png' alt="Double" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Double: Breaking the Acceleration Limit via Double Retrieval Speculative Parallelism](https://arxiv.org/abs/2601.05524)
@@ -160,6 +168,7 @@ Zhengxi Lu, Zhiyuan Yao, **<u>Jinyang Wu</u>**, Chengcheng Han, Qi Gu, Xunliang 
 Yuhao Shen, Tianyu Liu, Junyi Shen, **<u>Jinyang Wu</u>**, Quan Kong, Li Huan, Cong Wang
 
 [Paper](https://arxiv.org/abs/2601.05524){:.btn-link .btn-paper} [<img src='./images/svgs/huggingface_logo.svg' alt="">HF](https://huggingface.co/papers/2601.05524){:.btn-link .btn-hf} <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=t8H8Ru0AAAAJ&citation_for_view=t8H8Ru0AAAAJ:roLk4NBRz8UC" class="btn-link btn-scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i> <span class='show_paper_citations' data='t8H8Ru0AAAAJ:roLk4NBRz8UC'>--</span></a> [Code](https://github.com/Sylvan820/Double1){:.btn-link .btn-code} <a href="#" class="btn-link btn-bib" data-bib-key="shen2026double">BIB</a>
+<span class="paper-note">ACL 2026 Oral & Best Paper Candidate</span>
 - We bridge speculative decoding and retrieval-based guidance to push inference acceleration beyond conventional parallel speculative decoding limits.
 </div>
 </div>
@@ -176,13 +185,20 @@ Yuhao Shen, Tianyu Liu, Junyi Shen, **<u>Jinyang Wu</u>**, Quan Kong, Li Huan, C
 </div>
 </div>
 
-- <span class="pub-label pub-label-acl">ACL 2026</span> [Two-Stage Regularization-Based Structured Pruning for LLMs](https://arxiv.org/abs/2505.18232), Mingkuan Feng*, **<u>Jinyang Wu*</u>**, Siyuan Liu, Shuai Zhang, Ruihan Jin, Feihu Che, Pengpeng Shao, Zhengqi Wen, Jianhua Tao [[Code]](https://github.com/fmk345/TRSP) <a href="#" class="btn-link btn-bib" data-bib-key="feng2026trsp">BIB</a>
-- <span class="pub-label pub-label-acl">ICLR 2026</span> [Exploring Knowledge Purification in Multi-Teacher Knowledge Distillation for LLMs](https://arxiv.org/abs/2602.01064), Ruihan Jin, Pengpeng Shao, Zhengqi Wen, **<u>Jinyang Wu†</u>**, Mingkuan Feng, Shuo Yang, Chu Yuan Zhang, Jianhua Tao
-- <span class="pub-label pub-label-acl">ICLR 2026</span> [Attend to the Active: Structure-Aware Dynamic Attention in LLMs for Compositional Instruction Following](https://iclr.cc/virtual/2026/poster/10006691), Fangrui Lv, Yulei Qin, Ruixin Hong, Liang Jian, **<u>Jinyang Wu</u>**, Ke Li, Xing Sun, Changshui Zhang
-- <span class="pub-label pub-label-acl">AAAI 2026</span> [From Imitation to Discrimination: Toward A Generalized Curriculum Advantage Mechanism Enhancing Cross-Domain Reasoning Tasks](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=t8H8Ru0AAAAJ&pagesize=100&citation_for_view=t8H8Ru0AAAAJ:Zph67rFs4hoC), Changpeng Yang*, **<u>Jinyang Wu*</u>**, Yuchen Liu, Shuai Zhang, Yang Li, Qiliang Liang, Hongzhen Wang, Shuai Nie, Jiaming Xu, Runyu Shi, Ying Huang, Guoquan Zhang
-- <span class="pub-label pub-label-acl">EMNLP 2025</span> [RadialRouter: Structured Representation for Efficient and Robust Large Language Models Routing](https://arxiv.org/abs/2506.03880), Ruihan Jin, Pengpeng Shao, Zhengqi Wen, **<u>Jinyang Wu</u>**, Mingkuan Feng, Shuai Zhang, Jianhua Tao
-- <span class="pub-label pub-label-preprint">Preprint</span> [DReSS: Data-driven Regularized Structured Streamlining for Large Language Models](https://arxiv.org/abs/2501.17905), Mingkuan Feng, **<u>Jinyang Wu</u>**, Shuai Zhang, Pengpeng Shao, Ruihan Jin, Zhengqi Wen, Jianhua Tao, Feihu Che
-- <span class="pub-label pub-label-preprint">Preprint</span> [AffectGPT-RL: Revealing Roles of Reinforcement Learning in Open-Vocabulary Emotion Recognition](https://arxiv.org/abs/2605.06126), Zheng Lian, Fan Zhang, Lan Chen, Yazhou Zhang, Rui Liu, **<u>Jinyang Wu</u>**, Haoyu Chen, Xiaobai Li, Xiaojiang Peng, Bin He, Jianhua Tao
+- <span class="pub-label pub-label-acl">ACL 2026</span> [Two-Stage Regularization-Based Structured Pruning for LLMs](https://arxiv.org/abs/2505.18232), Mingkuan Feng*, **<u>Jinyang Wu*</u>**, Siyuan Liu, Shuai Zhang, Ruihan Jin, Feihu Che, Pengpeng Shao, Zhengqi Wen, Jianhua Tao<br>
+  <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=t8H8Ru0AAAAJ&citation_for_view=t8H8Ru0AAAAJ:8k81kl-MbHgC" class="btn-link btn-scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i> <span class='show_paper_citations hide-low-citation' data='t8H8Ru0AAAAJ:8k81kl-MbHgC'>--</span></a> [Code](https://github.com/fmk345/TRSP){:.btn-link .btn-code} <a href="#" class="btn-link btn-bib" data-bib-key="feng2026trsp">BIB</a>
+- <span class="pub-label pub-label-acl">ICLR 2026</span> [Exploring Knowledge Purification in Multi-Teacher Knowledge Distillation for LLMs](https://arxiv.org/abs/2602.01064), Ruihan Jin, Pengpeng Shao, Zhengqi Wen, **<u>Jinyang Wu†</u>**, Mingkuan Feng, Shuo Yang, Chu Yuan Zhang, Jianhua Tao<br>
+  <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=t8H8Ru0AAAAJ&citation_for_view=t8H8Ru0AAAAJ:Se3iqnhoufwC" class="btn-link btn-scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i> <span class='show_paper_citations hide-low-citation' data='t8H8Ru0AAAAJ:Se3iqnhoufwC'>--</span></a> <a href="#" class="btn-link btn-bib" data-bib-key="jin2026knowledgepurification">BIB</a>
+- <span class="pub-label pub-label-acl">ICLR 2026</span> [Attend to the Active: Structure-Aware Dynamic Attention in LLMs for Compositional Instruction Following](https://iclr.cc/virtual/2026/poster/10006691), Fangrui Lv, Yulei Qin, Ruixin Hong, Liang Jian, **<u>Jinyang Wu</u>**, Ke Li, Xing Sun, Changshui Zhang<br>
+  <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=t8H8Ru0AAAAJ&citation_for_view=t8H8Ru0AAAAJ:UebtZRa9Y70C" class="btn-link btn-scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i> <span class='show_paper_citations hide-low-citation' data='t8H8Ru0AAAAJ:UebtZRa9Y70C'>--</span></a> <a href="#" class="btn-link btn-bib" data-bib-key="lv2026attendactive">BIB</a>
+- <span class="pub-label pub-label-acl">AAAI 2026</span> [From Imitation to Discrimination: Toward A Generalized Curriculum Advantage Mechanism Enhancing Cross-Domain Reasoning Tasks](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=t8H8Ru0AAAAJ&pagesize=100&citation_for_view=t8H8Ru0AAAAJ:Zph67rFs4hoC), Changpeng Yang*, **<u>Jinyang Wu*</u>**, Yuchen Liu, Shuai Zhang, Yang Li, Qiliang Liang, Hongzhen Wang, Shuai Nie, Jiaming Xu, Runyu Shi, Ying Huang, Guoquan Zhang<br>
+  [<img src='./images/svgs/huggingface_logo.svg' alt="">HF](https://huggingface.co/papers/2512.02580){:.btn-link .btn-hf} <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=t8H8Ru0AAAAJ&citation_for_view=t8H8Ru0AAAAJ:Zph67rFs4hoC" class="btn-link btn-scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i> <span class='show_paper_citations hide-low-citation' data='t8H8Ru0AAAAJ:Zph67rFs4hoC'>--</span></a> <a href="#" class="btn-link btn-bib" data-bib-key="yang2026imitation">BIB</a>
+- <span class="pub-label pub-label-acl">EMNLP 2025</span> [RadialRouter: Structured Representation for Efficient and Robust Large Language Models Routing](https://arxiv.org/abs/2506.03880), Ruihan Jin, Pengpeng Shao, Zhengqi Wen, **<u>Jinyang Wu</u>**, Mingkuan Feng, Shuai Zhang, Jianhua Tao<br>
+  <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=t8H8Ru0AAAAJ&citation_for_view=t8H8Ru0AAAAJ:u-x6o8ySG0sC" class="btn-link btn-scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i> <span class='show_paper_citations hide-low-citation' data='t8H8Ru0AAAAJ:u-x6o8ySG0sC'>--</span></a> <a href="#" class="btn-link btn-bib" data-bib-key="jin2025radialrouter">BIB</a>
+- <span class="pub-label pub-label-preprint">Preprint</span> [DReSS: Data-driven Regularized Structured Streamlining for Large Language Models](https://arxiv.org/abs/2501.17905), Mingkuan Feng, **<u>Jinyang Wu</u>**, Shuai Zhang, Pengpeng Shao, Ruihan Jin, Zhengqi Wen, Jianhua Tao, Feihu Che<br>
+  <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=t8H8Ru0AAAAJ&citation_for_view=t8H8Ru0AAAAJ:LkGwnXOMwfcC" class="btn-link btn-scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i> <span class='show_paper_citations hide-low-citation' data='t8H8Ru0AAAAJ:LkGwnXOMwfcC'>--</span></a> <a href="#" class="btn-link btn-bib" data-bib-key="feng2025dress">BIB</a>
+- <span class="pub-label pub-label-preprint">Preprint</span> [AffectGPT-RL: Revealing Roles of Reinforcement Learning in Open-Vocabulary Emotion Recognition](https://arxiv.org/abs/2605.06126), Zheng Lian, Fan Zhang, Lan Chen, Yazhou Zhang, Rui Liu, **<u>Jinyang Wu</u>**, Haoyu Chen, Xiaobai Li, Xiaojiang Peng, Bin He, Jianhua Tao<br>
+  <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=t8H8Ru0AAAAJ&citation_for_view=t8H8Ru0AAAAJ:MXK_kJrjxJIC" class="btn-link btn-scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i> <span class='show_paper_citations hide-low-citation' data='t8H8Ru0AAAAJ:MXK_kJrjxJIC'>--</span></a> <a href="#" class="btn-link btn-bib" data-bib-key="lian2026affectgptrl">BIB</a>
 
 ## 🧬 Biomedical AI
 - <span class="pub-label pub-label-journal">Briefings in Bioinformatics 2023</span> [KGETCDA: An Efficient Representation Learning Framework Based on Knowledge Graph Encoder from Transformer for Predicting circRNA-Disease Associations](https://academic.oup.com/bib/article/24/5/bbad292/7242591?__cf_chl_f_tk=bHtbjkBuag5EGQzPvQ5Wv_3uDGaoVZx96QhBiYaevHY-1782837345-1.0.1.1-5uwCl9MlVGSzJTYCeael6d08JUcFHCzAXeAGkBvTzBA), **<u>Jinyang Wu</u>**, Zhiwei Ning, Yidong Ding, Ying Wang, Qinke Peng, Laiyi Fu
@@ -207,9 +223,16 @@ Yuhao Shen, Tianyu Liu, Junyi Shen, **<u>Jinyang Wu</u>**, Quan Kong, Li Huan, C
 - *2023.09 - now*: Ph.D. student in Pattern Recognition and Machine Learning, Tsinghua University.
 - *2019.09 - 2023.06*: B.Eng. in Automation, Xi'an Jiaotong University.
 
-# 🧑‍⚖️ Academic Service
-- **Conference Reviewer**: ICLR 2026, ICML 2026, NeurIPS 2026, ARR 2026, AAAI 2026, ECCV 2026, AAAI 2027.
-- **Journal Reviewer**: Expert Systems With Applications (ESWA), ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM).
+# 🧑‍⚖️ Academic Services
+
+### Journal Reviewer
+- Expert Systems With Applications (ESWA).
+- ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM).
+
+### Conference Reviewer
+- **Top-tier ML/AI Conferences**: NeurIPS (2025–2026), ICML (2026), ICLR (2026), AAAI (2026–2027).
+- **Top-tier CV Conferences**: CVPR (2026), ECCV (2026).
+- **Top-tier NLP Conferences**: ACL ARR (2026).
 
 # 💬 Invited Talks
 - *2025.12*: I gave an invited talk on memory usage, hosted by the Metaverse Technical Committee of the Chinese Association for Artificial Intelligence.

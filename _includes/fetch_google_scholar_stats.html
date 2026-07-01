@@ -12,7 +12,18 @@
                 't8H8Ru0AAAAJ:d1gkVwhDpl0C': { num_citations: 42 },
                 't8H8Ru0AAAAJ:qjMakFHDy7sC': { num_citations: 33 },
                 't8H8Ru0AAAAJ:roLk4NBRz8UC': { num_citations: 10 },
-                't8H8Ru0AAAAJ:2osOgNQ5qMEC': { num_citations: 30 }
+                't8H8Ru0AAAAJ:2osOgNQ5qMEC': { num_citations: 30 },
+                't8H8Ru0AAAAJ:ULOm3_A8WrAC': { num_citations: 7 },
+                't8H8Ru0AAAAJ:5nxA0vEk-isC': { num_citations: 4 },
+                't8H8Ru0AAAAJ:YOwf2qJgpHMC': { num_citations: 1 },
+                't8H8Ru0AAAAJ:3fE2CSJIrl8C': { num_citations: 1 },
+                't8H8Ru0AAAAJ:8k81kl-MbHgC': { num_citations: 1 },
+                't8H8Ru0AAAAJ:Se3iqnhoufwC': { num_citations: 2 },
+                't8H8Ru0AAAAJ:UebtZRa9Y70C': { num_citations: 0 },
+                't8H8Ru0AAAAJ:Zph67rFs4hoC': { num_citations: 1 },
+                't8H8Ru0AAAAJ:u-x6o8ySG0sC': { num_citations: 12 },
+                't8H8Ru0AAAAJ:LkGwnXOMwfcC': { num_citations: 4 },
+                't8H8Ru0AAAAJ:MXK_kJrjxJIC': { num_citations: 13 }
             }
         };
 
@@ -30,7 +41,8 @@
                 var paperId = element.getAttribute('data')
                 if (data['publications'] && data['publications'][paperId]) {
                     var numCitations = data['publications'][paperId]['num_citations']
-                    element.innerHTML = Number(numCitations) > 0 ? numCitations : '';
+                    var threshold = element.classList.contains('hide-low-citation') ? 9 : 0
+                    element.innerHTML = Number(numCitations) > threshold ? numCitations : '';
                 }
             });
         }
