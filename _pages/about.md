@@ -17,22 +17,27 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I’m currently a 3nd-year Ph.D. candidate in the Department of Automation at Tsinghua University. Prior to this, I earned my B.Eng. degree from the School of Automation Science and Engineering, Xi'an Jiaotong University in 2023. I worked closely with [Shuai Zhang](https://scholar.google.com/citations?user=PfILtS8AAAAJ&hl=zh-CN) and [Zhengqi Wen](https://scholar.google.com/citations?user=7SBjscMAAAAJ&hl=zh-CN). I am fortunate to collaborate with [Zheng Lian](https://zeroqiaoba.github.io/Homepage/), [Haoran Luo](https://haoranluo.net/), [Zhengxi Lu](https://lll6gg.github.io/), and [Fan Zhang](https://zfkarl.github.io/).
+I’m currently a 3nd-year Ph.D. candidate in the Department of Automation at <a href="https://www.tsinghua.edu.cn/en/"><em class="entity-mention" style="--entity-color: #7B0016">Tsinghua University</em></a>. Prior to this, I earned my B.Eng. degree from the School of Automation Science and Engineering, <a href="https://en.xjtu.edu.cn/"><em class="entity-mention" style="--entity-color: #B31B1B">Xi'an Jiaotong University</em></a> in 2023. I worked closely with [Shuai Zhang](https://scholar.google.com/citations?user=PfILtS8AAAAJ&hl=zh-CN) and [Zhengqi Wen](https://scholar.google.com/citations?user=7SBjscMAAAAJ&hl=zh-CN). I am fortunate to collaborate with [Zheng Lian](https://zeroqiaoba.github.io/Homepage/), [Haoran Luo](https://haoranluo.net/), [Zhengxi Lu](https://lll6gg.github.io/), and [Fan Zhang](https://zfkarl.github.io/).
 
 My research interests focus on **LLM / MLLM reasoning, planning, and agentic reinforcement learning**. From 2024 to early 2025, my work mainly focus on high-quality and efficient reasoning for LLMs. My current research investigates post-training techniques for general agents, including agent skills, on-policy distillation (OPD), and reinforcement learning (RL).
 
 🐈 Collaboration: I am looking for motivated collaborators interested in the above topics. If you would like to explore these directions together, feel free to contact me. UG/MSc students are also welcomed! 🌱
 
 # 🔥 News
-- *2026.06*: &nbsp;🔥🔥 We launched [OPID](https://arxiv.org/abs/2606.26790), [TACO](https://arxiv.org/abs/2606.30251), and [Orchestra-o1](https://arxiv.org/abs/2606.13707). OPID was featured as 🤗 HF Daily Paper #3!
-- *2026.05*: &nbsp;🔥🔥 Introducing [Maestro](https://arxiv.org/abs/2605.22177), [RobotEQ](https://arxiv.org/abs/2605.06234), [SDAR](https://arxiv.org/abs/2605.15155), [AffectGPT-RL](https://arxiv.org/abs/2605.06126). SDAR was featured as 🤗 HF Daily Paper #2!
-- *2026.05*: &nbsp;⛱️👏 Attending VALSE 2026 at Wuhan 🇨🇳
-- *2026.04*: &nbsp;🔥🔥 Our new work [SKILL0](https://arxiv.org/abs/2604.02268) was released, featured as 🤗 HF Daily Paper #2!
-- *2026.04*: &nbsp;🎉🎉 Six papers were accepted by ACL 2026, including one oral and best paper candidate (Double). See you in San Diego 🇺🇸!
-- *2026.01*: &nbsp;🏖️🥂 Attending AAAI 2026 at Singapore 🇸🇬
-- *2025.11*: &nbsp;🎉🎉 Two papers were accepted by AAAI 2026 (one oral presentation).
-- *2025.11*: &nbsp;🎉🎉 Attending EMNLP 2025 in Suzhou 🇨🇳
-- *2025.05*: &nbsp;🎉🎉 NoiserBench appeared at ACL 2025.
+
+<div class="scrollable-area">
+  <ul>
+    <li class="news-item"><span class="news-date">2026.06</span><span class="news-body">🔥🔥 We launched <a href="https://arxiv.org/abs/2606.26790">OPID</a>, <a href="https://arxiv.org/abs/2606.30251">TACO</a>, and <a href="https://arxiv.org/abs/2606.13707">Orchestra-o1</a>. OPID was featured as 🤗 HF Daily Paper #3!</span></li>
+    <li class="news-item"><span class="news-date">2026.05</span><span class="news-body">🔥🔥 Introducing <a href="https://arxiv.org/abs/2605.22177">Maestro</a>, <a href="https://arxiv.org/abs/2605.06234">RobotEQ</a>, <a href="https://arxiv.org/abs/2605.15155">SDAR</a>, <a href="https://arxiv.org/abs/2605.06126">AffectGPT-RL</a>. SDAR was featured as 🤗 HF Daily Paper #2!</span></li>
+    <li class="news-item"><span class="news-date">2026.05</span><span class="news-body">⛱️👏 Attending VALSE 2026 at Wuhan 🇨🇳</span></li>
+    <li class="news-item"><span class="news-date">2026.04</span><span class="news-body">🔥🔥 Our new work <a href="https://arxiv.org/abs/2604.02268">SKILL0</a> was released, featured as 🤗 HF Daily Paper #2!</span></li>
+    <li class="news-item"><span class="news-date">2026.04</span><span class="news-body">🎉🎉 Six papers were accepted by ACL 2026, including one oral and best paper candidate (Double). See you in San Diego 🇺🇸!</span></li>
+    <li class="news-item"><span class="news-date">2026.01</span><span class="news-body">🏖️🥂 Attending AAAI 2026 at Singapore 🇸🇬</span></li>
+    <li class="news-item"><span class="news-date">2025.11</span><span class="news-body">🎉🎉 Two papers were accepted by AAAI 2026 (one oral presentation).</span></li>
+    <li class="news-item"><span class="news-date">2025.11</span><span class="news-body">🎉🎉 Attending EMNLP 2025 in Suzhou 🇨🇳</span></li>
+    <li class="news-item"><span class="news-date">2025.05</span><span class="news-body">🎉🎉 NoiserBench appeared at ACL 2025.</span></li>
+  </ul>
+</div>
 
 # 📝 Publications 
 
@@ -47,7 +52,7 @@ My research interests focus on **LLM / MLLM reasoning, planning, and agentic rei
 
 **<u>Jinyang Wu</u>**, Shuo Yang, Changpeng Yang, Yuhao Shen, Shuai Zhang, Zhengqi Wen, Jianhua Tao†
 
-[Paper](https://arxiv.org/abs/2601.20209){:.btn-link .btn-paper} [Code](https://github.com/jinyangwu/SPARK){:.btn-link .btn-code} <strong><span class='show_paper_citations' data='t8H8Ru0AAAAJ:0EnyYjriUFMC'></span></strong>
+[Paper](https://arxiv.org/abs/2601.20209){:.btn-link .btn-paper} [HF](https://huggingface.co/collections/Jinyang23/spark){:.btn-link .btn-hf} [Code](https://github.com/jinyangwu/SPARK){:.btn-link .btn-code} <a href="#" class="btn-link btn-bib" data-bib-key="wu2026spark">BIB</a> <strong><span class='show_paper_citations' data='t8H8Ru0AAAAJ:0EnyYjriUFMC'></span></strong>
 - We propose a policy-aware branching framework that allocates exploration budget to critical decision states, improving sample efficiency for long-horizon agentic RL.
 </div>
 </div>
@@ -59,7 +64,7 @@ My research interests focus on **LLM / MLLM reasoning, planning, and agentic rei
 
 **<u>Jinyang Wu</u>**, Guocheng Zhai, Ruihan Jin, Jiahao Yuan, Yuhao Shen, Shuai Zhang, Zhengqi Wen, Jianhua Tao†
 
-[Paper](https://arxiv.org/abs/2601.03872){:.btn-link .btn-paper} <strong><span class='show_paper_citations' data='t8H8Ru0AAAAJ:ufrVoPGSRksC'></span></strong>
+[Paper](https://arxiv.org/abs/2601.03872){:.btn-link .btn-paper} [HF](https://huggingface.co/papers/2601.03872){:.btn-link .btn-hf} <a href="#" class="btn-link btn-bib" data-bib-key="wu2026atlas">BIB</a> <strong><span class='show_paper_citations' data='t8H8Ru0AAAAJ:ufrVoPGSRksC'></span></strong>
 - We introduce a dual-path framework for dynamic tool usage, combining cluster-based routing with RL-based multi-step routing for cross-domain reasoning.
 </div>
 </div>
@@ -71,7 +76,7 @@ My research interests focus on **LLM / MLLM reasoning, planning, and agentic rei
 
 **<u>Jinyang Wu</u>**, Guocheng Zhai, Ruihan Jin, Yuhao Shen, Zhengxi Lu, Fan Zhang, Haoran Luo, Zheng Lian, Zhengqi Wen, Jianhua Tao
 
-[Paper](https://arxiv.org/abs/2605.22177){:.btn-link .btn-paper} [Code](https://github.com/jinyangwu/Maestro){:.btn-link .btn-code} <strong><span class='show_paper_citations' data='t8H8Ru0AAAAJ:KlAtU1dfN6UC'></span></strong>
+[Paper](https://arxiv.org/abs/2605.22177){:.btn-link .btn-paper} [HF](https://huggingface.co/papers/2605.22177){:.btn-link .btn-hf} [Code](https://github.com/jinyangwu/Maestro){:.btn-link .btn-code} <a href="#" class="btn-link btn-bib" data-bib-key="wu2026maestro">BIB</a> <strong><span class='show_paper_citations' data='t8H8Ru0AAAAJ:KlAtU1dfN6UC'></span></strong>
 - We formulate model-skill orchestration as a sequential decision process and train a lightweight policy to compose frozen expert models and skills for multimodal tasks.
 </div>
 </div>
@@ -83,7 +88,7 @@ My research interests focus on **LLM / MLLM reasoning, planning, and agentic rei
 
 Shuo Yang*, **<u>Jinyang Wu*,†</u>**, Zhengxi Lu, Yuhao Shen, Fan Zhang, Lang Feng, Shuai Zhang, Haoran Luo, Zheng Lian, Zhengqi Wen, Jianhua Tao
 
-[Paper](https://arxiv.org/abs/2606.26790){:.btn-link .btn-paper} [Code](https://github.com/jinyangwu/OPID){:.btn-link .btn-code} <strong><span class='show_paper_citations' data='t8H8Ru0AAAAJ:4DMP91E08xMC'></span></strong>
+[Paper](https://arxiv.org/abs/2606.26790){:.btn-link .btn-paper} [HF](https://huggingface.co/collections/Jinyang23/opid){:.btn-link .btn-hf} [Code](https://github.com/jinyangwu/OPID){:.btn-link .btn-code} <a href="#" class="btn-link btn-bib" data-bib-key="yang2026opid">BIB</a> <strong><span class='show_paper_citations' data='t8H8Ru0AAAAJ:4DMP91E08xMC'></span></strong>
 - We extract hierarchical skill supervision from completed on-policy trajectories and convert hindsight skill signals into dense token-level advantages for agent training.
 </div>
 </div>
@@ -95,7 +100,7 @@ Shuo Yang*, **<u>Jinyang Wu*,†</u>**, Zhengxi Lu, Yuhao Shen, Fan Zhang, Lang 
 
 Zhengxi Lu, Zhiyuan Yao, **<u>Jinyang Wu</u>**, Chengcheng Han, Qi Gu, Xunliang Cai, Weiming Lu, Jun Xiao, Yueting Zhuang, Yongliang Shen
 
-[Paper](https://arxiv.org/abs/2604.02268){:.btn-link .btn-paper} [Code](https://github.com/ZJU-REAL/SkillZero){:.btn-link .btn-code} <strong><span class='show_paper_citations' data='t8H8Ru0AAAAJ:kNdYIx-mwKoC'></span></strong>
+[Paper](https://arxiv.org/abs/2604.02268){:.btn-link .btn-paper} [HF](https://huggingface.co/papers/2604.02268){:.btn-link .btn-hf} [Code](https://github.com/ZJU-REAL/SkillZero){:.btn-link .btn-code} <a href="#" class="btn-link btn-bib" data-bib-key="lu2026skill0">BIB</a> <strong><span class='show_paper_citations' data='t8H8Ru0AAAAJ:kNdYIx-mwKoC'></span></strong>
 - We study skill internalization for agents, gradually withdrawing runtime skill context so the policy can acquire reusable behaviors into its parameters.
 </div>
 </div>
@@ -115,7 +120,7 @@ Zhengxi Lu, Zhiyuan Yao, **<u>Jinyang Wu</u>**, Chengcheng Han, Qi Gu, Xunliang 
 
 **<u>Jinyang Wu</u>**, Mingkuan Feng, Shuai Zhang, Feihu Che, Zhengqi Wen, Chonghua Liao, Ling Yang, Haoran Luo, Zheng Lian, Jianhua Tao
 
-[Paper](https://arxiv.org/abs/2411.18478){:.btn-link .btn-paper} [Code](https://github.com/jinyangwu/ThoughtICR){:.btn-link .btn-code} <strong><span class='show_paper_citations' data='t8H8Ru0AAAAJ:aqlVkmm33-oC'></span></strong>
+[Paper](https://arxiv.org/abs/2411.18478){:.btn-link .btn-paper} [HF](https://huggingface.co/papers/2411.18478){:.btn-link .btn-hf} [Code](https://github.com/jinyangwu/ThoughtICR){:.btn-link .btn-code} <a href="#" class="btn-link btn-bib" data-bib-key="wu2026thoughticr">BIB</a> <strong><span class='show_paper_citations' data='t8H8Ru0AAAAJ:aqlVkmm33-oC'></span></strong>
 - We shift in-context reasoning from example-level imitation to reusable thought patterns, enabling automated and efficient reasoning guidance.
 </div>
 </div>
@@ -127,7 +132,7 @@ Zhengxi Lu, Zhiyuan Yao, **<u>Jinyang Wu</u>**, Chengcheng Han, Qi Gu, Xunliang 
 
 **<u>Jinyang Wu</u>**, Chonghua Liao, Mingkuan Feng, Shuai Zhang, Zhengqi Wen, Haoran Luo, Ling Yang, Huazhe Xu, Jianhua Tao
 
-[Paper](https://arxiv.org/abs/2505.15692){:.btn-link .btn-paper} <strong><span class='show_paper_citations' data='t8H8Ru0AAAAJ:d1gkVwhDpl0C'></span></strong>
+[Paper](https://arxiv.org/abs/2505.15692){:.btn-link .btn-paper} [HF](https://huggingface.co/papers/2505.15692){:.btn-link .btn-hf} <a href="#" class="btn-link btn-bib" data-bib-key="wu2026templaterl">BIB</a> <strong><span class='show_paper_citations' data='t8H8Ru0AAAAJ:d1gkVwhDpl0C'></span></strong>
 - We augment policy optimization with structured templates, improving high-quality rollout generation and stabilizing RL training for reasoning.
 </div>
 </div>
@@ -139,7 +144,7 @@ Zhengxi Lu, Zhiyuan Yao, **<u>Jinyang Wu</u>**, Chengcheng Han, Qi Gu, Xunliang 
 
 **<u>Jinyang Wu</u>**, Mingkuan Feng, Guocheng Zhai, Shuai Zhang†, Zheng Lian, Fangrui Lv, Pengpeng Shao, Ruihan Jin, Zhengqi Wen, Jianhua Tao†
 
-[Paper](https://arxiv.org/abs/2502.02339){:.btn-link .btn-paper} <strong><span class='show_paper_citations' data='t8H8Ru0AAAAJ:qjMakFHDy7sC'></span></strong>
+[Paper](https://arxiv.org/abs/2502.02339){:.btn-link .btn-paper} [HF](https://huggingface.co/papers/2502.02339){:.btn-link .btn-hf} <a href="#" class="btn-link btn-bib" data-bib-key="wu2026astar">BIB</a> <strong><span class='show_paper_citations' data='t8H8Ru0AAAAJ:qjMakFHDy7sC'></span></strong>
 - We build a training-free structured thinking method for multimodal reasoning, retrieving reusable thought cards at test time to guide MLLMs.
 </div>
 </div>
@@ -151,7 +156,7 @@ Zhengxi Lu, Zhiyuan Yao, **<u>Jinyang Wu</u>**, Chengcheng Han, Qi Gu, Xunliang 
 
 Mingkuan Feng*, **<u>Jinyang Wu*</u>**, Siyuan Liu, Shuai Zhang, Ruihan Jin, Feihu Che, Pengpeng Shao, Zhengqi Wen, Jianhua Tao
 
-[Paper](https://arxiv.org/abs/2505.18232){:.btn-link .btn-paper} <strong><span class='show_paper_citations' data='t8H8Ru0AAAAJ:8k81kl-MbHgC'></span></strong>
+[Paper](https://arxiv.org/abs/2505.18232){:.btn-link .btn-paper} [Code](https://github.com/fmk345/TRSP){:.btn-link .btn-code} <a href="#" class="btn-link btn-bib" data-bib-key="feng2026trsp">BIB</a> <strong><span class='show_paper_citations' data='t8H8Ru0AAAAJ:8k81kl-MbHgC'></span></strong>
 - We introduce a two-stage regularization strategy for structured LLM pruning, preserving more knowledge while reducing model depth without retraining.
 </div>
 </div>
@@ -163,7 +168,7 @@ Mingkuan Feng*, **<u>Jinyang Wu*</u>**, Siyuan Liu, Shuai Zhang, Ruihan Jin, Fei
 
 Yuhao Shen, Tianyu Liu, Junyi Shen, **<u>Jinyang Wu</u>**, Quan Kong, Li Huan, Cong Wang
 
-[Paper](https://arxiv.org/abs/2601.05524){:.btn-link .btn-paper} [Code](https://github.com/Sylvan820/Double1){:.btn-link .btn-code}<strong><span class='show_paper_citations' data='t8H8Ru0AAAAJ:roLk4NBRz8UC'></span></strong>
+[Paper](https://arxiv.org/abs/2601.05524){:.btn-link .btn-paper} [HF](https://huggingface.co/papers/2601.05524){:.btn-link .btn-hf} [Code](https://github.com/Sylvan820/Double1){:.btn-link .btn-code} <a href="#" class="btn-link btn-bib" data-bib-key="shen2026double">BIB</a> <strong><span class='show_paper_citations' data='t8H8Ru0AAAAJ:roLk4NBRz8UC'></span></strong>
 - We bridge speculative decoding and retrieval-based guidance to push inference acceleration beyond conventional parallel speculative decoding limits.
 </div>
 </div>
@@ -175,7 +180,7 @@ Yuhao Shen, Tianyu Liu, Junyi Shen, **<u>Jinyang Wu</u>**, Quan Kong, Li Huan, C
 
 **<u>Jinyang Wu</u>**, Shuai Zhang, Feihu Che, Mingkuan Feng, Pengpeng Shao, Jianhua Tao
 
-[Paper](https://arxiv.org/abs/2408.13533){:.btn-link .btn-paper} [Code](https://github.com/jinyangwu/NoiserBench){:.btn-link .btn-code} <strong><span class='show_paper_citations' data='t8H8Ru0AAAAJ:2osOgNQ5qMEC'></span></strong>
+[Paper](https://arxiv.org/abs/2408.13533){:.btn-link .btn-paper} [HF](https://huggingface.co/datasets/Jinyang23/NoiserBench){:.btn-link .btn-hf} [Code](https://github.com/jinyangwu/NoiserBench){:.btn-link .btn-code} <a href="#" class="btn-link btn-bib" data-bib-key="wu2025pandora">BIB</a> <strong><span class='show_paper_citations' data='t8H8Ru0AAAAJ:2osOgNQ5qMEC'></span></strong>
 - We define a linguistic taxonomy of RAG noise and build NoiserBench to study when retrieval noise harms or surprisingly helps LLM reasoning.
 </div>
 </div>
