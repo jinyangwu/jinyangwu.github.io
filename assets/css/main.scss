@@ -47,24 +47,41 @@
     flex-direction: row;
     flex-wrap: wrap;
     border-bottom: 1px #efefef solid;
-    padding: 2em 0 2em 0;
-    
+    padding: 0.85em 0;
 
     .paper-box-image{
         justify-content: center;
         display: flex;
         width: 100%;
         order: 2;
+        position: relative;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+
         img {
             max-width: 400px;
+            border-radius: 4px;
             box-shadow: 3px 3px 6px #888;
             object-fit: cover;
+        }
+
+        &:hover {
+            z-index: 1000;
+            transform: scale(1.65) translate(-18%, -12%);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.32);
         }
     }
     
     .paper-box-text{
         max-width: 100%;
         order: 1;
+
+        ul {
+            margin-bottom: 0;
+
+            li {
+                margin-bottom: 0.25rem;
+            }
+        }
     }
     
     @include breakpoint($medium) {
@@ -82,6 +99,24 @@
             order: 2;
         }
 
+    }
+
+    @media (hover: hover) {
+        .paper-box-text > ul {
+            max-height: 0;
+            overflow: hidden;
+            opacity: 0;
+            margin-top: 0;
+            transition: max-height 0.3s ease,
+                        opacity 0.25s ease,
+                        margin-top 0.3s ease;
+        }
+
+        &:hover .paper-box-text > ul {
+            max-height: 240px;
+            opacity: 1;
+            margin-top: 0.4em;
+        }
     }
 
 
@@ -106,4 +141,48 @@ h1:before, .anchor:before {
     color: white;
     background-color: #00369f;
     font-size: .8em;
+    font-weight: 700;
+    border-radius: 0 4px 4px 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.16);
+}
+
+.badge-acl {
+    background: linear-gradient(135deg, #1A73E8, #174EA6);
+}
+
+.badge-aaai {
+    background: linear-gradient(135deg, #7B3FF2, #512DA8);
+}
+
+.badge-preprint {
+    background: linear-gradient(135deg, #F29900, #B06000);
+}
+
+.btn-link {
+    display: inline-block;
+    padding: 2px 9px;
+    margin-right: 2px;
+    font-size: 0.85em;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    line-height: 1.55;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: filter 0.15s ease;
+}
+
+.btn-link:hover,
+.btn-link:focus {
+    text-decoration: none;
+    filter: brightness(0.94);
+}
+
+.btn-paper, .btn-paper:hover {
+    background: #E8F0FE;
+    color: #1A73E8;
+}
+
+.btn-code, .btn-code:hover {
+    background: #E8EAED;
+    color: #3C4043;
 }
