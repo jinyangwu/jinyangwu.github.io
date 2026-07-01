@@ -52,7 +52,7 @@ My research interests focus on **LLM / MLLM reasoning, planning, and agentic rei
 
 [SPARK: Strategic Policy-Aware Exploration via Dynamic Branching for Long-Horizon Agentic Learning](https://arxiv.org/abs/2601.20209)
 
-**<u>Jinyang Wu</u>**, Shuo Yang, Changpeng Yang, Yuhao Shen, Shuai Zhang, Zhengqi Wen, Jianhua Tao†
+**<u>Jinyang Wu</u>**, Shuo Yang, Changpeng Yang, Yuhao Shen, Shuai Zhang, Zhengqi Wen, Jianhua Tao
 
 [Paper](https://arxiv.org/abs/2601.20209){:.btn-link .btn-paper} [HF](https://huggingface.co/collections/Jinyang23/spark){:.btn-link .btn-hf} [Code](https://github.com/jinyangwu/SPARK){:.btn-link .btn-code} <a href="#" class="btn-link btn-bib" data-bib-key="wu2026spark">BIB</a> <strong><span class='show_paper_citations' data='t8H8Ru0AAAAJ:0EnyYjriUFMC'></span></strong>
 - We propose a policy-aware branching framework that allocates exploration budget to critical decision states, improving sample efficiency for long-horizon agentic RL.
@@ -64,7 +64,7 @@ My research interests focus on **LLM / MLLM reasoning, planning, and agentic rei
 
 [Atlas: Orchestrating Heterogeneous Models and Tools for Multi-Domain Complex Reasoning](https://arxiv.org/abs/2601.03872)
 
-**<u>Jinyang Wu</u>**, Guocheng Zhai, Ruihan Jin, Jiahao Yuan, Yuhao Shen, Shuai Zhang, Zhengqi Wen, Jianhua Tao†
+**<u>Jinyang Wu</u>**, Guocheng Zhai, Ruihan Jin, Jiahao Yuan, Yuhao Shen, Shuai Zhang, Zhengqi Wen, Jianhua Tao
 
 [Paper](https://arxiv.org/abs/2601.03872){:.btn-link .btn-paper} [HF](https://huggingface.co/papers/2601.03872){:.btn-link .btn-hf} <a href="#" class="btn-link btn-bib" data-bib-key="wu2026atlas">BIB</a> <strong><span class='show_paper_citations' data='t8H8Ru0AAAAJ:ufrVoPGSRksC'></span></strong>
 - We introduce a dual-path framework for dynamic tool usage, combining cluster-based routing with RL-based multi-step routing for cross-domain reasoning.
@@ -144,7 +144,7 @@ Zhengxi Lu, Zhiyuan Yao, **<u>Jinyang Wu</u>**, Chengcheng Han, Qi Gu, Xunliang 
 
 [AStar: Boosting Multimodal Reasoning with Automated Structured Thinking](https://arxiv.org/abs/2502.02339)
 
-**<u>Jinyang Wu</u>**, Mingkuan Feng, Guocheng Zhai, Shuai Zhang†, Zheng Lian, Fangrui Lv, Pengpeng Shao, Ruihan Jin, Zhengqi Wen, Jianhua Tao†
+**<u>Jinyang Wu</u>**, Mingkuan Feng, Guocheng Zhai, Shuai Zhang, Zheng Lian, Fangrui Lv, Pengpeng Shao, Ruihan Jin, Zhengqi Wen, Jianhua Tao
 
 [Paper](https://arxiv.org/abs/2502.02339){:.btn-link .btn-paper} [HF](https://huggingface.co/papers/2502.02339){:.btn-link .btn-hf} <a href="#" class="btn-link btn-bib" data-bib-key="wu2026astar">BIB</a> <strong><span class='show_paper_citations' data='t8H8Ru0AAAAJ:qjMakFHDy7sC'></span></strong>
 - We build a training-free structured thinking method for multimodal reasoning, retrieving reusable thought cards at test time to guide MLLMs.
