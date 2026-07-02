@@ -11,11 +11,6 @@ description              : "wu-jy23@mails.tsinghua.edu.cn"
 repository               : "jinyangwu/jinyangwu.github.io"
 google_scholar_stats_use_cdn : true
 
-# Visitor map
-visitor_map:
-  enabled: true
-  endpoint: "https://jinyang-visitor-map.davinwu23.workers.dev"
-
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
 
