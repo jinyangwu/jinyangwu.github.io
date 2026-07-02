@@ -1,0 +1,8 @@
+name = "jinyang-visitor-map"
+main = "cloudflare-visitor-worker.js"
+compatibility_date = "2024-09-23"
+workers_dev = true
+
+[[kv_namespaces]]
+binding = "VISITOR_STATS"
+id = "b73ed3b8db004bc7acaffcfa1829d4fa"

@@ -1,5 +1,8 @@
 <script src="assets/js/main.min.js"></script>
 <script src="{{ '/assets/js/bib-tooltip.js' | relative_url }}"></script>
+{% if site.visitor_map.enabled %}
+<script src="{{ '/assets/js/visitor-map.js' | relative_url }}"></script>
+{% endif %}
 
 {% include analytics.html %}
 {% include fetch_google_scholar_stats.html %}
