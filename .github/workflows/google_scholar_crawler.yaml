@@ -1,7 +1,11 @@
 name: Get Citation Data
 
-on: 
- page_build: 
+permissions:
+  contents: write
+
+on:
+ workflow_dispatch:
+ page_build:
  schedule:
   - cron:  '0 8 * * *'
 
