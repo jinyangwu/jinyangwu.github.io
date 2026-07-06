@@ -1,5 +1,9 @@
 <script src="assets/js/main.min.js"></script>
 <script src="{{ '/assets/js/bib-tooltip.js' | relative_url }}"></script>
+<script>
+  window.githubStarStatsUrl = 'https://cdn.jsdelivr.net/gh/{{ site.repository }}@github-star-stats/star_counts.json';
+</script>
+<script src="{{ '/assets/js/github-stars.js' | relative_url }}"></script>
 
 {% include analytics.html %}
 {% include fetch_google_scholar_stats.html %}
