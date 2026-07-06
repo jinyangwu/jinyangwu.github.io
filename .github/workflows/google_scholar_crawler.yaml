@@ -32,6 +32,7 @@ jobs:
           python main.py
         env:
           GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
 
       - name: Publish citation data
         run: |
