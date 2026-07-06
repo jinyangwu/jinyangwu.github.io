@@ -284,6 +284,32 @@ h1:before, .anchor:before {
     transform: translateY(-50%) translateX(0);
 }
 
+.flag-counter-box {
+    margin-top: 1.1em;
+    padding-top: 0.85em;
+    border-top: 1px solid #eef0f3;
+    font-size: 0.84em;
+    line-height: 1.45;
+    color: #6b7280;
+}
+
+.flag-counter-box a {
+    display: block;
+    border-bottom: 0 !important;
+}
+
+.flag-counter-box img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    box-shadow: none;
+}
+
+.flag-counter-box span {
+    display: block;
+    margin-top: 0.25em;
+}
+
 @media (max-width: 64em) {
     .wechat-qr {
         left: 0;
