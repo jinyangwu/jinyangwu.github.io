@@ -29,14 +29,14 @@ My research interests focus on **LLM / MLLM reasoning, planning, and agentic rei
 
 <div class="scrollable-area">
   <ul>
-    <li class="news-item"><span class="news-date">2026.07</span><span class="news-body">🏆 Double received the SAC Highlight Award at <a href="https://2026.aclweb.org/">ACL 2026</a> (~50/12,148), selected as the best outstanding paper in the SAC batch!</span></li>
+    <li class="news-item"><span class="news-date">2026.07</span><span class="news-body">🏆 <a href="https://aclanthology.org/2026.acl-long.879/">Double</a> received the SAC Highlight Award at <a href="https://2026.aclweb.org/">ACL 2026</a> (~50/12,148), selected as the best outstanding paper in the SAC batch!</span></li>
     <li class="news-item"><span class="news-date">2026.07</span><span class="news-body">🪑 Serving as Virtual Session Chair (Language Model) at <a href="https://2026.aclweb.org/">ACL 2026</a>.</span></li>
     <li class="news-item"><span class="news-date">2026.06</span><span class="news-body">🚀 Released <a href="https://arxiv.org/abs/2606.26790">OPID</a>, <a href="https://arxiv.org/abs/2606.30251">TACO</a>, <a href="https://arxiv.org/abs/2606.13707">Orchestra-o1</a>. OPID featured as 🤗 HF Daily Paper #3!</span></li>
     <li class="news-item"><span class="news-date">2026.05</span><span class="news-body">🎙️ Presented <a href="https://arxiv.org/abs/2605.22177">Maestro</a> at AliStar Academic Open Day, Beijing 🇨🇳.</span></li>
     <li class="news-item"><span class="news-date">2026.05</span><span class="news-body">🚀 Released <a href="https://arxiv.org/abs/2605.22177">Maestro</a>, <a href="https://arxiv.org/abs/2605.06234">RobotEQ</a>, <a href="https://arxiv.org/abs/2605.15155">SDAR</a>, <a href="https://arxiv.org/abs/2605.06126">AffectGPT-RL</a>. SDAR featured as 🤗 HF Daily Paper #2!</span></li>
     <li class="news-item"><span class="news-date">2026.05</span><span class="news-body">✈️🏛️ Attending VALSE 2026 at Wuhan 🇨🇳</span></li>
     <li class="news-item"><span class="news-date">2026.04</span><span class="news-body">🚀 Released <a href="https://arxiv.org/abs/2604.02268">SKILL0</a> on skill internalization, featured as 🤗 HF Daily Paper #2!</span></li>
-    <li class="news-item"><span class="news-date">2026.04</span><span class="news-body">🎉 Six papers accepted to ACL 2026, including one oral and best paper candidate (Double). See you in San Diego 🇺🇸!</span></li>
+    <li class="news-item"><span class="news-date">2026.04</span><span class="news-body">🎉 Six papers accepted to ACL 2026, including one oral and best paper candidate (<a href="https://aclanthology.org/2026.acl-long.879/">Double</a>). See you in San Diego 🇺🇸!</span></li>
     <li class="news-item"><span class="news-date">2026.02</span><span class="news-body">🎉 Two papers accepted to ICLR 2026! </span></li>
     <li class="news-item"><span class="news-date">2026.01</span><span class="news-body">✈️ Attended AAAI 2026 in Singapore 🇸🇬</span></li>
     <li class="news-item"><span class="news-date">2025.12</span><span class="news-body">🎤 Attended the 2025 China Metaverse Conference in Wenzhou 🇨🇳.</span></li>
