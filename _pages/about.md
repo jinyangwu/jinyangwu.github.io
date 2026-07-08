@@ -29,6 +29,7 @@ My research interests focus on **LLM / MLLM reasoning, planning, and agentic rei
 
 <div class="scrollable-area">
   <ul>
+    <li class="news-item"><span class="news-date">2026.07</span><span class="news-body">🏆 Double received the SAC Highlight Award at <a href="https://2026.aclweb.org/">ACL 2026</a> (~50/12,148), selected by SAC as the outstanding paper in their batch!</span></li>
     <li class="news-item"><span class="news-date">2026.07</span><span class="news-body">🪑 Serving as Virtual Session Chair (Language Model) at <a href="https://2026.aclweb.org/">ACL 2026</a>.</span></li>
     <li class="news-item"><span class="news-date">2026.06</span><span class="news-body">🚀 Released <a href="https://arxiv.org/abs/2606.26790">OPID</a>, <a href="https://arxiv.org/abs/2606.30251">TACO</a>, <a href="https://arxiv.org/abs/2606.13707">Orchestra-o1</a>. OPID featured as 🤗 HF Daily Paper #3!</span></li>
     <li class="news-item"><span class="news-date">2026.05</span><span class="news-body">🎙️ Presented <a href="https://arxiv.org/abs/2605.22177">Maestro</a> at AliStar Academic Open Day, Beijing 🇨🇳.</span></li>
@@ -164,7 +165,7 @@ Zhengxi Lu, Zhiyuan Yao, **<u>Jinyang Wu</u>**, Chengcheng Han, Qi Gu, Xunliang 
 Yuhao Shen, Tianyu Liu, Junyi Shen, **<u>Jinyang Wu</u>**, Quan Kong, Li Huan, Cong Wang
 
 [Paper](https://arxiv.org/abs/2601.05524){:.btn-link .btn-paper} [<img src='./images/svgs/huggingface_logo.svg' alt="">HF](https://huggingface.co/papers/2601.05524){:.btn-link .btn-hf} <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=t8H8Ru0AAAAJ&citation_for_view=t8H8Ru0AAAAJ:roLk4NBRz8UC" class="btn-link btn-scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i> <span class='show_paper_citations' data='t8H8Ru0AAAAJ:roLk4NBRz8UC'>--</span></a> [Code](https://github.com/Sylvan820/Double1){:.btn-link .btn-code} <a href="#" class="btn-link btn-bib" data-bib-key="shen2026double">BIB</a>
-<span class="paper-note">ACL 2026 Oral & Best Paper Candidate</span>
+<span class="paper-note">ACL 2026 Best Paper Candidate (SAC Highlight/Oral)</span>
 - We bridge speculative decoding and retrieval-based guidance to push inference acceleration beyond conventional parallel speculative decoding limits.
 </div>
 </div>
