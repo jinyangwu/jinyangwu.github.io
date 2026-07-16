@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>SEED: Self-Evolving On-Policy Distillation for Agentic Reinforcement Learning</title>
+  <meta name="title" content="SEED: Self-Evolving On-Policy Distillation for Agentic Reinforcement Learning">
+  <meta name="description" content="SEED turns completed on-policy trajectories into evolving hindsight skills and dense token-level supervision for long-horizon agentic reinforcement learning.">
+  <meta name="keywords" content="SEED, agentic reinforcement learning, on-policy distillation, hindsight skills, language agents, long-horizon agents, multimodal agents">
+  <meta name="author" content="Jinyang Wu, Shuo Yang, Zhengxi Lu, Yuhao Shen, Fan Zhang, Lang Feng, Shuai Zhang, Haoran Luo, Zheng Lian, Zhengqi Wen, Jianhua Tao">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#173a55">
+  <link rel="canonical" href="https://jinyangwu.github.io/seed/">
+
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="SEED Research Project">
+  <meta property="og:url" content="https://jinyangwu.github.io/seed/">
+  <meta property="og:title" content="SEED: Self-Evolving On-Policy Distillation for Agentic Reinforcement Learning">
+  <meta property="og:description" content="Completed on-policy experience becomes evolving hindsight supervision for long-horizon agents.">
+  <meta property="og:image" content="https://jinyangwu.github.io/seed/static/images/social_preview.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="SEED project overview">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="SEED: Self-Evolving On-Policy Distillation">
+  <meta name="twitter:description" content="Dense hindsight supervision for agentic reinforcement learning, synchronized with the evolving policy.">
+  <meta name="twitter:image" content="https://jinyangwu.github.io/seed/static/images/social_preview.png">
+
+  <meta name="citation_title" content="SEED: Self-Evolving On-Policy Distillation for Agentic Reinforcement Learning">
+  <meta name="citation_author" content="Wu, Jinyang">
+  <meta name="citation_author" content="Yang, Shuo">
+  <meta name="citation_author" content="Lu, Zhengxi">
+  <meta name="citation_author" content="Shen, Yuhao">
+  <meta name="citation_author" content="Zhang, Fan">
+  <meta name="citation_author" content="Feng, Lang">
+  <meta name="citation_author" content="Zhang, Shuai">
+  <meta name="citation_author" content="Luo, Haoran">
+  <meta name="citation_author" content="Lian, Zheng">
+  <meta name="citation_author" content="Wen, Zhengqi">
+  <meta name="citation_author" content="Tao, Jianhua">
+  <meta name="citation_publication_date" content="2026">
+  <meta name="citation_pdf_url" content="https://jinyangwu.github.io/seed/static/pdfs/seed.pdf">
+
+  <link rel="icon" type="image/png" href="static/images/favicon.png">
+  <link rel="apple-touch-icon" href="static/images/favicon.png">
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/index.css?v=20260716">
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script defer src="static/js/index.js"></script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ScholarlyArticle",
+    "headline": "SEED: Self-Evolving On-Policy Distillation for Agentic Reinforcement Learning",
+    "description": "SEED turns completed on-policy trajectories into evolving hindsight skills and dense token-level supervision for long-horizon agentic reinforcement learning.",
+    "author": [
+      {"@type": "Person", "name": "Jinyang Wu", "affiliation": {"@type": "Organization", "name": "Tsinghua University"}},
+      {"@type": "Person", "name": "Shuo Yang", "affiliation": {"@type": "Organization", "name": "Tsinghua University"}},
+      {"@type": "Person", "name": "Zhengxi Lu", "affiliation": {"@type": "Organization", "name": "Zhejiang University"}},
+      {"@type": "Person", "name": "Yuhao Shen", "affiliation": {"@type": "Organization", "name": "Zhejiang University"}},
+      {"@type": "Person", "name": "Fan Zhang", "affiliation": {"@type": "Organization", "name": "The Chinese University of Hong Kong"}},
+      {"@type": "Person", "name": "Lang Feng", "affiliation": {"@type": "Organization", "name": "Nanyang Technological University"}},
+      {"@type": "Person", "name": "Shuai Zhang", "affiliation": {"@type": "Organization", "name": "Tsinghua University"}},
+      {"@type": "Person", "name": "Haoran Luo", "affiliation": {"@type": "Organization", "name": "Nanyang Technological University"}},
+      {"@type": "Person", "name": "Zheng Lian", "affiliation": {"@type": "Organization", "name": "Tongji University"}},
+      {"@type": "Person", "name": "Zhengqi Wen", "affiliation": {"@type": "Organization", "name": "Tsinghua University"}},
+      {"@type": "Person", "name": "Jianhua Tao", "affiliation": {"@type": "Organization", "name": "Tsinghua University"}}
+    ],
+    "datePublished": "2026",
+    "keywords": ["agentic reinforcement learning", "on-policy distillation", "hindsight skills", "language agents"],
+    "isAccessibleForFree": true
+  }
+  </script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <nav class="site-nav container-wide" aria-label="Primary navigation">
+      <a class="brand" href="#top" aria-label="SEED home">
+        <img src="static/images/seed/seed-icon.png" alt="" width="28" height="29">
+        <span>SEED</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links" title="Open navigation">
+        <i class="fas fa-bars" aria-hidden="true"></i>
+        <span class="sr-only">Open navigation</span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a href="#overview">Overview</a>
+        <a href="#method">Method</a>
+        <a href="#results">Results</a>
+        <a href="#citation">Citation</a>
+      </div>
+      <div class="nav-actions">
+        <a class="nav-icon" href="https://huggingface.co/papers/PLACEHOLDER" target="_blank" rel="noopener" title="Hugging Face Daily Paper" aria-label="Hugging Face Daily Paper">
+          <img class="hf-logo" src="static/images/huggingface-logo.svg" alt="" width="21" height="20">
+        </a>
+        <a class="nav-icon" href="static/pdfs/seed.pdf" target="_blank" title="Read the paper" aria-label="Read the paper">
+          <i class="fas fa-file-pdf" aria-hidden="true"></i>
+        </a>
+        <a class="nav-icon" href="https://github.com/jinyangwu/SEED" target="_blank" rel="noopener" title="Code on GitHub" aria-label="Code on GitHub">
+          <i class="fab fa-github" aria-hidden="true"></i>
+        </a>
+        <a class="nav-icon" href="https://huggingface.co/Jinyang23/Seed-AlfWorld-3B" target="_blank" rel="noopener" title="Model checkpoint" aria-label="Model checkpoint">
+          <i class="fas fa-cube" aria-hidden="true"></i>
+        </a>
+        <a class="nav-icon" href="mailto:wu-jy23@mails.tsinghua.edu.cn" title="Contact by email" aria-label="Contact by email">
+          <i class="fas fa-envelope" aria-hidden="true"></i>
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="project-hero">
+      <div class="hero-backdrop" aria-hidden="true"></div>
+      <div class="container-main hero-content">
+        <div class="project-kicker">
+          <img src="static/images/seed/seed-icon.png" alt="" width="30" height="31">
+          <span>Agentic Reinforcement Learning</span>
+        </div>
+        <h1><span class="seed-word">SEED</span>: Self-Evolving On-Policy Distillation for Agentic Reinforcement Learning</h1>
+        <p class="hero-statement">Completed on-policy experience becomes evolving hindsight supervision.</p>
+
+        <div class="authors" aria-label="Authors">
+          <span><a href="https://jinyangwu.github.io/" target="_blank" rel="noopener"><strong>Jinyang Wu</strong></a><sup>1,*,&dagger;</sup></span>
+          <span><strong>Shuo Yang</strong><sup>1,*</sup></span>
+          <span>Zhengxi Lu<sup>2</sup></span>
+          <span>Yuhao Shen<sup>2</sup></span>
+          <span>Fan Zhang<sup>3</sup></span>
+          <span>Lang Feng<sup>4</sup></span>
+          <span>Shuai Zhang<sup>1</sup></span>
+          <span>Haoran Luo<sup>4</sup></span>
+          <span>Zheng Lian<sup>5</sup></span>
+          <span>Zhengqi Wen<sup>1</sup></span>
+          <span>Jianhua Tao<sup>1</sup></span>
+        </div>
+
+        <div class="affiliations">
+          <span><sup>1</sup>Tsinghua University</span>
+          <span><sup>2</sup>Zhejiang University</span>
+          <span><sup>3</sup>The Chinese University of Hong Kong</span>
+          <span><sup>4</sup>Nanyang Technological University</span>
+          <span><sup>5</sup>Tongji University</span>
+        </div>
+        <p class="author-notes"><sup>*</sup> Equal contribution &nbsp;&nbsp; <sup>&dagger;</sup> Project leader</p>
+
+        <div class="resource-links" aria-label="Project resources">
+          <a class="resource-button" href="https://huggingface.co/papers/PLACEHOLDER" target="_blank" rel="noopener">
+            <img class="hf-logo" src="static/images/huggingface-logo.svg" alt="" width="19" height="18">
+            <span>HF</span>
+          </a>
+          <a class="resource-button" href="static/pdfs/seed.pdf" target="_blank">
+            <i class="fas fa-file-pdf" aria-hidden="true"></i>
+            <span>Paper</span>
+          </a>
+          <a class="resource-button" href="https://github.com/jinyangwu/SEED" target="_blank" rel="noopener">
+            <i class="fab fa-github" aria-hidden="true"></i>
+            <span>Code</span>
+          </a>
+          <a class="resource-button" href="https://huggingface.co/Jinyang23/Seed-AlfWorld-3B" target="_blank" rel="noopener">
+            <i class="fas fa-cube" aria-hidden="true"></i>
+            <span>Model</span>
+          </a>
+          <a class="resource-button" href="mailto:wu-jy23@mails.tsinghua.edu.cn">
+            <i class="fas fa-envelope" aria-hidden="true"></i>
+            <span>Contact</span>
+          </a>
+        </div>
+
+        <div class="hero-principles" aria-label="Key properties">
+          <span>On-Policy Distillation</span>
+          <span>Dense Token Supervision</span>
+          <span>Self-Evolving Hindsight Skills</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="lead-result" aria-label="Overall performance">
+      <div class="container-wide">
+        <figure class="paper-figure result-figure">
+          <button class="figure-zoom" type="button" data-lightbox="static/images/seed/overall-performance.png" aria-label="Open the overall performance figure" title="Open full-size figure">
+            <img src="static/images/seed/overall-performance.png" alt="Overall comparison of SEED with prompting, outcome-only reinforcement learning, and skill-distillation methods" width="1923" height="1002">
+            <span class="zoom-indicator"><i class="fas fa-expand" aria-hidden="true"></i></span>
+          </button>
+          <figcaption><strong>Overall performance with Qwen2.5-3B-Instruct.</strong> SEED achieves the strongest average performance on ALFWorld and WebShop while remaining competitive on Search-based QA without using skill prompts during evaluation.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section-band band-white" id="overview">
+      <div class="container-main">
+        <div class="section-heading split-heading">
+          <div>
+            <p class="eyebrow">Overview</p>
+            <h2>Closing the supervision gap in long-horizon agentic learning</h2>
+          </div>
+          <p class="heading-summary">Outcome rewards tell an agent whether an episode succeeded. SEED teaches it which decisions its completed experience supports.</p>
+        </div>
+
+        <div class="overview-grid">
+          <div class="abstract-copy">
+            <h3>Abstract</h3>
+            <p>Large language models are increasingly trained as interactive agents for long-horizon tasks involving multi-turn interaction, tool use, and environment feedback. Outcome-based reinforcement learning provides a practical optimization paradigm, but sparse trajectory-level rewards offer limited guidance on intermediate decisions.</p>
+            <p>SEED converts completed on-policy trajectories into natural-language hindsight skills and distills their behavioral effect back into the policy. The current policy both collects trajectories and analyzes them, so decision making and hindsight supervision evolve together. Skill-conditioned rescoring turns probability shifts on sampled actions into dense token-level supervision. The resulting signal is jointly optimized with outcome-based reinforcement learning.</p>
+          </div>
+          <aside class="core-insight">
+            <p class="insight-label">Core insight</p>
+            <blockquote>As the policy changes, the experience it generates and the supervision extracted from that experience should change with it.</blockquote>
+            <p>Skills are privileged supervision during training. The deployed policy requires no external skill memory or additional skill prompt.</p>
+          </aside>
+        </div>
+
+        <div class="requirement-grid">
+          <article class="requirement-item">
+            <span class="requirement-number">01</span>
+            <h3>On-policy</h3>
+            <p>Guidance is extracted from states, actions, and failures induced by the current policy.</p>
+          </article>
+          <article class="requirement-item">
+            <span class="requirement-number">02</span>
+            <h3>Dense</h3>
+            <p>Trajectory-level hindsight is converted into supervision for individual sampled action tokens.</p>
+          </article>
+          <article class="requirement-item">
+            <span class="requirement-number">03</span>
+            <h3>Self-evolving</h3>
+            <p>The shared actor and analyzer improve together as reinforcement learning updates the policy.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-band band-method" id="method">
+      <div class="container-wide">
+        <div class="section-heading centered-heading">
+          <p class="eyebrow">Method</p>
+          <h2>One policy, two synchronized roles</h2>
+          <p>The latest policy acts in the environment and analyzes its completed trajectories. OPD internalizes the behavioral effect of the resulting hindsight skills.</p>
+        </div>
+
+        <ol class="method-steps">
+          <li>
+            <span>1</span>
+            <div><strong>Collect</strong><small>Sample grouped on-policy trajectories.</small></div>
+          </li>
+          <li>
+            <span>2</span>
+            <div><strong>Analyze</strong><small>Extract reusable hindsight skills with the synchronized policy.</small></div>
+          </li>
+          <li>
+            <span>3</span>
+            <div><strong>Re-score</strong><small>Evaluate sampled actions with and without the skill context.</small></div>
+          </li>
+          <li>
+            <span>4</span>
+            <div><strong>Distill</strong><small>Optimize dense OPD supervision jointly with outcome-based RL.</small></div>
+          </li>
+        </ol>
+
+        <figure class="paper-figure framework-figure">
+          <button class="figure-zoom" type="button" data-lightbox="static/images/seed/framework.png" aria-label="Open the SEED framework figure" title="Open full-size figure">
+            <img src="static/images/seed/framework.png" alt="The two-stage SEED framework: hindsight skill supervised fine-tuning followed by self-evolving on-policy distillation" width="1707" height="1255">
+            <span class="zoom-indicator"><i class="fas fa-expand" aria-hidden="true"></i></span>
+          </button>
+          <figcaption><strong>SEED framework.</strong> Stage 1 initializes trajectory analysis through hindsight-skill supervised fine-tuning. Stage 2 repeatedly synchronizes the actor and analyzer, then combines outcome-based RL with on-policy distillation.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section-band band-white" id="results">
+      <div class="container-main">
+        <div class="section-heading split-heading">
+          <div>
+            <p class="eyebrow">Results</p>
+            <h2>Stronger learning from every completed trajectory</h2>
+          </div>
+          <p class="heading-summary">Across three backbones and diverse agentic domains, SEED improves performance, sample efficiency, and transfer to unseen settings.</p>
+        </div>
+
+        <div class="metric-grid">
+          <article class="metric-card purple-accent">
+            <strong>91.8</strong>
+            <span>ALFWorld average</span>
+            <small>Qwen2.5-3B</small>
+          </article>
+          <article class="metric-card blue-accent">
+            <strong>60%</strong>
+            <span>Training data</span>
+            <small>beats full-data GRPO</small>
+          </article>
+          <article class="metric-card teal-accent">
+            <strong>+15.3</strong>
+            <span>Unseen average gain</span>
+            <small>over GRPO on ALFWorld</small>
+          </article>
+          <article class="metric-card warm-accent">
+            <strong>91.0</strong>
+            <span>Vision-task average</span>
+            <small>versus 77.0 for GRPO</small>
+          </article>
+        </div>
+
+        <div class="finding-list">
+          <article>
+            <span class="finding-mark">A</span>
+            <div><h3>Dense hindsight improves credit assignment</h3><p>The gains over GRPO show that token-level hindsight provides more effective credit assignment than terminal rewards alone.</p></div>
+          </article>
+          <article>
+            <span class="finding-mark">B</span>
+            <div><h3>Internalized skills outperform inserted prompts</h3><p>SEED requires no skill context at inference time and still outperforms skill-prompting baselines on nearly all aggregate comparisons.</p></div>
+          </article>
+          <article>
+            <span class="finding-mark">C</span>
+            <div><h3>Evolving supervision beats static distillation</h3><p>Synchronizing the analyzer with the latest policy adapts hindsight to newly encountered trajectories and failure modes.</p></div>
+          </article>
+        </div>
+
+        <div class="multimodal-subsection" id="multimodal">
+          <div class="multimodal-layout">
+            <div class="multimodal-copy">
+              <p class="eyebrow">Multimodal extension</p>
+              <h2>Hindsight supervision also transfers through vision</h2>
+              <p>Using Qwen2.5-VL-3B-Instruct, SEED extends to Sokoban spatial planning and EZPoints visual arithmetic. The extracted skills are used only during training, so evaluation requires no skill prompt.</p>
+              <div class="vision-results" aria-label="Vision benchmark results">
+                <div><span>Sokoban</span><strong>82.0</strong><small>+14.9 over GRPO</small></div>
+                <div><span>EZPoints</span><strong>100.0</strong><small>+13.1 over GRPO</small></div>
+                <div><span>Average</span><strong>91.0</strong><small>+14.0 over GRPO</small></div>
+              </div>
+            </div>
+            <figure class="sokoban-figure">
+              <button class="figure-zoom" type="button" data-lightbox="static/images/seed/multimodal-sokoban.png" aria-label="Open the Sokoban trajectory figure" title="Open full-size figure">
+                <img src="static/images/seed/multimodal-sokoban.png" alt="A six-step visual trajectory generated by SEED in Sokoban" width="1237" height="270">
+                <span class="zoom-indicator"><i class="fas fa-expand" aria-hidden="true"></i></span>
+              </button>
+              <figcaption>A representative six-step Sokoban trajectory requiring visual state tracking and long-horizon spatial planning.</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-band band-evidence" id="analysis">
+      <div class="container-main">
+        <div class="section-heading centered-heading">
+          <p class="eyebrow">Efficiency and transfer</p>
+          <h2>Efficient learning and transfer to unseen tasks</h2>
+        </div>
+
+        <div class="evidence-grid">
+          <figure class="evidence-item">
+            <button class="figure-zoom" type="button" data-lightbox="static/images/seed/sample-efficiency.png" aria-label="Open the sample efficiency figure" title="Open full-size figure">
+              <img src="static/images/seed/sample-efficiency.png" alt="Sample efficiency comparison between SEED and GRPO" width="515" height="352">
+              <span class="zoom-indicator"><i class="fas fa-expand" aria-hidden="true"></i></span>
+            </button>
+            <figcaption><strong>Sample efficiency.</strong> With only 60% of the training data, SEED reaches 80.7 and surpasses GRPO trained on the full dataset at 75.0.</figcaption>
+          </figure>
+          <figure class="evidence-item">
+            <button class="figure-zoom" type="button" data-lightbox="static/images/seed/generalization.png" aria-label="Open the cross-domain generalization figure" title="Open full-size figure">
+              <img src="static/images/seed/generalization.png" alt="Cross-domain generalization comparison on ALFWorld Unseen" width="509" height="352">
+              <span class="zoom-indicator"><i class="fas fa-expand" aria-hidden="true"></i></span>
+            </button>
+            <figcaption><strong>Cross-domain generalization.</strong> SEED raises the ALFWorld Unseen average from 70.9 to 86.2 and improves five of six task families.</figcaption>
+          </figure>
+        </div>
+
+        <figure class="paper-figure dynamics-figure">
+          <button class="figure-zoom" type="button" data-lightbox="static/images/seed/training-dynamics.png" aria-label="Open the training dynamics figure" title="Open full-size figure">
+            <img src="static/images/seed/training-dynamics.png" alt="Training success rate and turns per episode for SEED and GRPO" width="687" height="264">
+            <span class="zoom-indicator"><i class="fas fa-expand" aria-hidden="true"></i></span>
+          </button>
+          <figcaption><strong>Training dynamics on ALFWorld.</strong> SEED learns faster and reaches higher success. Shorter episodes coincide with better performance, indicating more direct task completion.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section-band band-white" id="case-study">
+      <div class="container-main">
+        <div class="section-heading split-heading">
+          <div>
+            <p class="eyebrow">Qualitative evidence</p>
+            <h2>From unproductive exploration to direct completion</h2>
+          </div>
+          <p class="heading-summary">On the same ALFWorld task, GRPO enters an off-task loop. SEED searches plausible locations, finds the target object, and completes the task in five steps.</p>
+        </div>
+        <figure class="paper-figure case-figure">
+          <button class="figure-zoom" type="button" data-lightbox="static/images/seed/case-study.png" aria-label="Open the ALFWorld case study" title="Open full-size figure">
+            <img src="static/images/seed/case-study.png" alt="Side-by-side ALFWorld trajectories from GRPO and SEED" width="1787" height="977">
+            <span class="zoom-indicator"><i class="fas fa-expand" aria-hidden="true"></i></span>
+          </button>
+          <figcaption><strong>Qualitative comparison on ALFWorld.</strong> The SEED policy preserves the task goal, checks plausible shelves, and executes the correct final placement without receiving a skill prompt.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section-band band-citation" id="citation">
+      <div class="container-main citation-layout">
+        <div>
+          <p class="eyebrow">Citation</p>
+          <h2>Resources and citation</h2>
+          <p>Code, training recipes, and the released checkpoint are available through the project resources.</p>
+          <div class="citation-actions">
+            <a class="text-link" href="https://github.com/jinyangwu/SEED" target="_blank" rel="noopener">GitHub <i class="fas fa-external-link-alt" aria-hidden="true"></i></a>
+            <a class="text-link" href="https://huggingface.co/Jinyang23/Seed-AlfWorld-3B" target="_blank" rel="noopener">Hugging Face <i class="fas fa-external-link-alt" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <div class="bibtex-block">
+          <div class="bibtex-header">
+            <span>BibTeX</span>
+            <button class="copy-button" type="button" data-copy-target="bibtex-code" title="Copy BibTeX">
+              <i class="fas fa-copy" aria-hidden="true"></i>
+              <span>Copy</span>
+            </button>
+          </div>
+          <pre id="bibtex-code"><code>@article{wu2026seed,
+  title  = {SEED: Self-Evolving On-Policy Distillation for
+            Agentic Reinforcement Learning},
+  author = {Wu, Jinyang and Yang, Shuo and Lu, Zhengxi and
+            Shen, Yuhao and Zhang, Fan and Feng, Lang and
+            Zhang, Shuai and Luo, Haoran and Lian, Zheng and
+            Wen, Zhengqi and Tao, Jianhua},
+  year   = {2026},
+  note   = {Preprint}
+}</code></pre>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container-main footer-inner">
+      <div class="footer-brand">
+        <img src="static/images/seed/seed-icon.png" alt="" width="26" height="27">
+        <span>SEED</span>
+      </div>
+      <p>Corresponding to <a href="mailto:wu-jy23@mails.tsinghua.edu.cn">wu-jy23@mails.tsinghua.edu.cn</a></p>
+      <p class="template-credit">Based on the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank" rel="noopener">Academic Project Page Template</a>.</p>
+    </div>
+  </footer>
+
+  <button class="scroll-top" type="button" title="Back to top" aria-label="Back to top">
+    <i class="fas fa-arrow-up" aria-hidden="true"></i>
+  </button>
+
+  <div class="lightbox" role="dialog" aria-modal="true" aria-label="Figure preview" hidden>
+    <button class="lightbox-close" type="button" title="Close figure" aria-label="Close figure">
+      <i class="fas fa-times" aria-hidden="true"></i>
+    </button>
+    <img src="" alt="Expanded research figure">
+  </div>
+</body>
+</html>
