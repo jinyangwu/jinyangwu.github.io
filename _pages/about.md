@@ -29,6 +29,7 @@ My research interests focus on **LLM / MLLM reasoning, planning, and agentic rei
 
 <div class="scrollable-area">
   <ul>
+    <li class="news-item"><span class="news-date">2026.07</span><span class="news-body">🚀 Released <a href="https://jinyangwu.github.io/seed/">SEED</a>, a self-evolving on-policy distillation framework for agentic reinforcement learning.</span></li>
     <li class="news-item"><span class="news-date">2026.07</span><span class="news-body">🏆 <a href="https://aclanthology.org/2026.acl-long.879/">Double</a> received the SAC Highlight Award at <a href="https://2026.aclweb.org/">ACL 2026</a> (~50/12,148), selected as the best outstanding paper in the SAC batch!</span></li>
     <li class="news-item"><span class="news-date">2026.07</span><span class="news-body">🪑 Serving as Virtual Session Chair (Language Model) at <a href="https://2026.aclweb.org/">ACL 2026</a>.</span></li>
     <li class="news-item"><span class="news-date">2026.06</span><span class="news-body">🚀 Released <a href="https://arxiv.org/abs/2606.26790">OPID</a>, <a href="https://arxiv.org/abs/2606.30251">TACO</a>, <a href="https://arxiv.org/abs/2606.13707">Orchestra-o1</a>. OPID featured as 🤗 HF Daily Paper #3!</span></li>
@@ -76,15 +77,15 @@ My research interests focus on **LLM / MLLM reasoning, planning, and agentic rei
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge badge-preprint">Preprint</div><img src='pub_images/maestro.png' alt="Maestro" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge badge-preprint">Preprint</div><img src='pub_images/seed.png' alt="SEED" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Maestro: Reinforcement Learning to Orchestrate Hierarchical Model-Skill Ensembles](https://arxiv.org/abs/2605.22177)
+[SEED: Self-Evolving On-Policy Distillation for Agentic Reinforcement Learning](https://jinyangwu.github.io/seed/)
 
-**<u>Jinyang Wu</u>**, Guocheng Zhai, Ruihan Jin, Yuhao Shen, Zhengxi Lu, Fan Zhang, Haoran Luo, Zheng Lian, Zhengqi Wen, Jianhua Tao
+**<u>Jinyang Wu*,†</u>**, Shuo Yang*, Zhengxi Lu, Fan Zhang, Yuhao Shen, Lang Feng, Haoran Luo, Zheng Lian, Shuai Zhang, Zhengqi Wen, Jianhua Tao
 
-[Paper](https://arxiv.org/abs/2605.22177){:.btn-link .btn-paper} [<img src='./images/svgs/huggingface_logo.svg' alt="">HF](https://huggingface.co/papers/2605.22177){:.btn-link .btn-hf} <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=t8H8Ru0AAAAJ&citation_for_view=t8H8Ru0AAAAJ:KlAtU1dfN6UC" class="btn-link btn-scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i> <span class='show_paper_citations' data='t8H8Ru0AAAAJ:KlAtU1dfN6UC'>--</span></a> [Code](https://github.com/jinyangwu/Maestro){:.btn-link .btn-code} <a href="#" class="btn-link btn-bib" data-bib-key="wu2026maestro">BIB</a>
-- We formulate model-skill orchestration as a sequential decision process and train a lightweight policy to compose frozen expert models and skills for multimodal tasks.
+[Paper](https://arxiv.org/pdf/2607.14777){:.btn-link .btn-paper} [<img src='./images/svgs/huggingface_logo.svg' alt="">HF](https://huggingface.co/papers/2607.14777){:.btn-link .btn-hf} [Code](https://github.com/jinyangwu/SEED){:.btn-link .btn-code} <a href="#" class="btn-link btn-bib" data-bib-key="wu2026seed">BIB</a>
+- We turn completed on-policy trajectories into evolving hindsight skills and dense token-level supervision for long-horizon agentic reinforcement learning.
 </div>
 </div>
 
@@ -112,6 +113,7 @@ Zhengxi Lu, Zhiyuan Yao, **<u>Jinyang Wu</u>**, Chengcheng Han, Qi Gu, Xunliang 
 </div>
 </div>
 
+- <span class="pub-label pub-label-preprint">Preprint</span> [Maestro: Reinforcement Learning to Orchestrate Hierarchical Model-Skill Ensembles](https://arxiv.org/abs/2605.22177), **<u>Jinyang Wu</u>**, Guocheng Zhai, Ruihan Jin, Yuhao Shen, Zhengxi Lu, Fan Zhang, Haoran Luo, Zheng Lian, Zhengqi Wen, Jianhua Tao&nbsp;&nbsp;[<img src='./images/svgs/huggingface_logo.svg' alt="">HF](https://huggingface.co/papers/2605.22177){:.btn-link .btn-hf} [Code](https://github.com/jinyangwu/Maestro){:.btn-link .btn-code} <a href="#" class="btn-link btn-bib" data-bib-key="wu2026maestro">BIB</a>
 - <span class="pub-label pub-label-preprint">Preprint</span> [TACO: Tool-Augmented Credit Optimization for Agentic Tool Use](https://arxiv.org/abs/2606.30251), Mingkuan Feng*, **<u>Jinyang Wu*,†</u>**, Hao Gu, Fangrui Lv, Ruihan Jin, Chuyuan Zhang, Zhengqi Wen, Jianhua Tao&nbsp;&nbsp;[<img src='./images/svgs/huggingface_logo.svg' alt="">HF](https://huggingface.co/papers/2606.30251){:.btn-link .btn-hf} <a href="#" class="btn-link btn-bib" data-bib-key="feng2026taco">BIB</a>
 - <span class="pub-label pub-label-preprint">Preprint</span> [SDAR: Self-Distilled Agentic Reinforcement Learning](https://arxiv.org/abs/2605.15155), Zhengxi Lu, Zhiyuan Yao, Zhuowen Han, Zi-Han Wang, **<u>Jinyang Wu</u>**, Qi Gu, Xunliang Cai, Weiming Lu, Jun Xiao, Yueting Zhuang, Yongliang Shen&nbsp;&nbsp;[<img src='./images/svgs/huggingface_logo.svg' alt="">HF](https://huggingface.co/papers/2605.15155){:.btn-link .btn-hf} [Code](https://github.com/ZJU-REAL/SDAR){:.btn-link .btn-code} <a href="#" class="btn-link btn-bib" data-bib-key="lu2026sdar">BIB</a>
 - <span class="pub-label pub-label-preprint">Preprint</span> [OdysseyArena: Benchmarking Large Language Models For Long-Horizon, Active and Inductive Interactions](https://arxiv.org/abs/2602.05843), Fangzhi Xu, Hang Yan, Qiushi Sun, **<u>Jinyang Wu</u>**, Zixian Huang, Muye Huang, Jingyang Gong, Zichen Ding, Kanzhi Cheng, Yian Wang, Xinyu Che, Zeyi Sun, Jian Zhang, Zhangyue Yin, Haoran Luo, Xuanjing Huang, Ben Kao, Jun Liu, Qika Lin&nbsp;&nbsp;[<img src='./images/svgs/huggingface_logo.svg' alt="">HF](https://huggingface.co/datasets/xufangzhi/OdysseyArena){:.btn-link .btn-hf} [Code](https://github.com/xufangzhi/Odyssey-Arena){:.btn-link .btn-code} <a href="#" class="btn-link btn-bib" data-bib-key="xu2026odysseyarena">BIB</a>
