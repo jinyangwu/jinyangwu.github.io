@@ -29,7 +29,7 @@ My research interests focus on **LLM / MLLM reasoning, planning, and agentic rei
 
 <div class="scrollable-area">
   <ul>
-    <li class="news-item"><span class="news-date">2026.07</span><span class="news-body">🚀 Released <a href="https://jinyangwu.github.io/seed/">SEED</a>, a self-evolving on-policy distillation framework for agentic RL, featured as 🤗 HF Daily Paper #3!.</span></li>
+    <li class="news-item"><span class="news-date">2026.07</span><span class="news-body">🚀 Released <a href="https://jinyangwu.github.io/seed/">SEED</a>, a self-evolving on-policy distillation framework for agentic RL, featured as 🤗 HF Daily Paper #3!</span></li>
     <li class="news-item"><span class="news-date">2026.07</span><span class="news-body">🏆 <a href="https://aclanthology.org/2026.acl-long.879/">Double</a> received the SAC Highlight Award at <a href="https://2026.aclweb.org/">ACL 2026</a> (~50/12,148), selected as the best outstanding paper in the SAC batch!</span></li>
     <li class="news-item"><span class="news-date">2026.07</span><span class="news-body">🪑 Serving as Virtual Session Chair (Language Model) at <a href="https://2026.aclweb.org/">ACL 2026</a>.</span></li>
     <li class="news-item"><span class="news-date">2026.06</span><span class="news-body">🚀 Released <a href="https://arxiv.org/abs/2606.26790">OPID</a>, <a href="https://arxiv.org/abs/2606.30251">TACO</a>, <a href="https://arxiv.org/abs/2606.13707">Orchestra-o1</a>. OPID featured as 🤗 HF Daily Paper #3!</span></li>
