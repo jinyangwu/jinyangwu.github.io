@@ -29,7 +29,7 @@ My research interests focus on **LLM / MLLM reasoning, planning, and agentic rei
 
 <div class="scrollable-area">
   <ul>
-    <li class="news-item"><span class="news-date">2026.07</span><span class="news-body">🚀 Released <a href="https://jinyangwu.github.io/seed/">SEED</a>, a self-evolving on-policy distillation framework for agentic reinforcement learning.</span></li>
+    <li class="news-item"><span class="news-date">2026.07</span><span class="news-body">🚀 Released <a href="https://jinyangwu.github.io/seed/">SEED</a>, a self-evolving on-policy distillation framework for agentic RL, featured as 🤗 HF Daily Paper #3!.</span></li>
     <li class="news-item"><span class="news-date">2026.07</span><span class="news-body">🏆 <a href="https://aclanthology.org/2026.acl-long.879/">Double</a> received the SAC Highlight Award at <a href="https://2026.aclweb.org/">ACL 2026</a> (~50/12,148), selected as the best outstanding paper in the SAC batch!</span></li>
     <li class="news-item"><span class="news-date">2026.07</span><span class="news-body">🪑 Serving as Virtual Session Chair (Language Model) at <a href="https://2026.aclweb.org/">ACL 2026</a>.</span></li>
     <li class="news-item"><span class="news-date">2026.06</span><span class="news-body">🚀 Released <a href="https://arxiv.org/abs/2606.26790">OPID</a>, <a href="https://arxiv.org/abs/2606.30251">TACO</a>, <a href="https://arxiv.org/abs/2606.13707">Orchestra-o1</a>. OPID featured as 🤗 HF Daily Paper #3!</span></li>
@@ -82,7 +82,7 @@ My research interests focus on **LLM / MLLM reasoning, planning, and agentic rei
 
 [SEED: Self-Evolving On-Policy Distillation for Agentic Reinforcement Learning](https://jinyangwu.github.io/seed/)
 
-**<u>Jinyang Wu*,†</u>**, Shuo Yang*, Zhengxi Lu, Fan Zhang, Yuhao Shen, Lang Feng, Haoran Luo, Zheng Lian, Shuai Zhang, Zhengqi Wen, Jianhua Tao
+**<u>Jinyang Wu*</u>**, Shuo Yang*, Zhengxi Lu, Fan Zhang, Yuhao Shen, Lang Feng, Haoran Luo, Zheng Lian, Shuai Zhang, Zhengqi Wen, Jianhua Tao
 
 [Paper](https://arxiv.org/pdf/2607.14777){:.btn-link .btn-paper} [<img src='./images/svgs/huggingface_logo.svg' alt="">HF](https://huggingface.co/papers/2607.14777){:.btn-link .btn-hf} [Code](https://github.com/jinyangwu/SEED){:.btn-link .btn-code} <a href="#" class="btn-link btn-bib" data-bib-key="wu2026seed">BIB</a>
 - We turn completed on-policy trajectories into evolving hindsight skills and dense token-level supervision for long-horizon agentic reinforcement learning.
