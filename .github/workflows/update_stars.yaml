@@ -2,6 +2,11 @@ name: Update GitHub Star Counts
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - '_pages/about.md'
   schedule:
     - cron: '17 7 * * *'
 
@@ -40,3 +45,6 @@ jobs:
           git commit -m "Refresh star counts"
           remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
           git push "${remote_repo}" HEAD:github-star-stats --force
+
+      - name: Purge jsDelivr cache
+        run: curl -fsS "https://purge.jsdelivr.net/gh/${GITHUB_REPOSITORY}@github-star-stats/star_counts.json"
