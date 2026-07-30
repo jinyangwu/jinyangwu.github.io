@@ -202,7 +202,7 @@ Yuhao Shen, Tianyu Liu, Junyi Shen, **<u>Jinyang Wu</u>**, Quan Kong, Li Huan, C
 - Teaching Assistant, Intelligent Speech Processing, undergraduate interdisciplinary innovation training course.
 
 # 🎖 Honors and Awards
-- *2026*: CIE-Tencent Doctoral Research Incentive Project (中国电子学会-腾讯大模型博士生科研激励计划, 44 Recipients Nationwide, ¥100,000 Grant).
+- *2026*: CIE-Tencent Doctoral Research Incentive Project (中国电子学会-腾讯博士生科研激励计划, 44 Recipients Nationwide, ¥100,000 Grant).
 - *2026*: Outstanding Student Cadre, Tsinghua University.
 - *2026*: Merit Student, Tsinghua University.
 - *2025*: Outstanding Teaching Assistant, Tsinghua University.
