@@ -29,6 +29,7 @@ My research interests focus on **LLM / MLLM reasoning, planning, and agentic rei
 
 <div class="scrollable-area">
   <ul>
+    <li class="news-item"><span class="news-date">2026.08</span><span class="news-body">🎉 Four papers accepted to EMNLP 2026. See you in Budapest 🇭🇺!</span></li>
     <li class="news-item"><span class="news-date">2026.08</span><span class="news-body">🌙 Invited to Qingyuan InnoVibe Starry Night (星月夜沙龙), exchanging ideas with <a href="https://www.wangzhongyuan.com/">Zhongyuan Wang</a> and <a href="https://scholar.google.com/citations?user=YCBFupwAAAAJ&amp;hl=zh-CN">Huaxia Xia</a>.</span></li>
     <li class="news-item"><span class="news-date">2026.08</span><span class="news-body">🚀 Released <a href="https://arxiv.org/abs/2608.05987">AgentOPSD</a>, <a href="https://arxiv.org/abs/2608.01837">PCSD</a>, <a href="https://arxiv.org/abs/2607.24280">MAPD</a>, and <a href="https://arxiv.org/abs/2608.14718">VideoGAIA</a>. AgentOPSD featured as 🤗 HF Daily Paper #1!</span></li>
     <li class="news-item"><span class="news-date">2026.07</span><span class="news-body">🎉 Selected for the CIE-Tencent Doctoral Research Incentive Project (44 recipients nationwide, ¥100,000 Grant)!</span></li>
@@ -104,7 +105,7 @@ Shuo Yang*, **<u>Jinyang Wu*,†</u>**, Zhengxi Lu, Yuhao Shen, Fan Zhang, Lang 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge badge-preprint">Preprint</div><img src='pub_images/skill0.png' alt="SKILL0" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge badge-acl">EMNLP 2026</div><img src='pub_images/skill0.png' alt="SKILL0" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [SKILL0: In-Context Agentic Reinforcement Learning for Skill Internalization](https://arxiv.org/abs/2604.02268)
