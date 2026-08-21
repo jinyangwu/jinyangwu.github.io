@@ -29,6 +29,7 @@ My research interests focus on **LLM / MLLM reasoning, planning, and agentic rei
 
 <div class="scrollable-area">
   <ul>
+    <li class="news-item"><span class="news-date">2026.08</span><span class="news-body">🌙 Invited to Qingyuan InnoVibe Starry Night (星月夜沙龙), exchanging ideas with <a href="https://www.wangzhongyuan.com/">Zhongyuan Wang</a> and <a href="https://scholar.google.com/citations?user=YCBFupwAAAAJ&amp;hl=zh-CN">Huaxia Xia</a>.</span></li>
     <li class="news-item"><span class="news-date">2026.08</span><span class="news-body">🚀 Released <a href="https://arxiv.org/abs/2608.05987">AgentOPSD</a>, <a href="https://arxiv.org/abs/2608.01837">PCSD</a>, <a href="https://arxiv.org/abs/2607.24280">MAPD</a>, and <a href="https://arxiv.org/abs/2608.14718">VideoGAIA</a>. AgentOPSD featured as 🤗 HF Daily Paper #1!</span></li>
     <li class="news-item"><span class="news-date">2026.07</span><span class="news-body">🎉 Selected for the CIE-Tencent Doctoral Research Incentive Project (44 recipients nationwide, ¥100,000 Grant)!</span></li>
     <li class="news-item"><span class="news-date">2026.07</span><span class="news-body">🚀 Released <a href="https://jinyangwu.github.io/seed/">SEED</a>, a self-evolving on-policy distillation framework for agentic RL, featured as 🤗 HF Daily Paper #3!</span></li>
