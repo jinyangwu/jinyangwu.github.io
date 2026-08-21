@@ -88,7 +88,7 @@ My research interests focus on **LLM / MLLM reasoning, planning, and agentic rei
 
 **<u>Jinyang Wu</u>**, Shuo Yang, Zhengxi Lu, Fan Zhang, Yuhao Shen, Lang Feng, Haoran Luo, Zheng Lian, Shuai Zhang, Zhengqi Wen, Jianhua Tao
 
-[Paper](https://arxiv.org/pdf/2607.14777){:.btn-link .btn-paper} [<img src='./images/svgs/huggingface_logo.svg' alt="">HF](https://huggingface.co/papers/2607.14777){:.btn-link .btn-hf} [Code](https://github.com/jinyangwu/SEED){:.btn-link .btn-code} <a href="#" class="btn-link btn-bib" data-bib-key="wu2026seed">BIB</a>
+[Paper](https://arxiv.org/pdf/2607.14777){:.btn-link .btn-paper} [<img src='./images/svgs/huggingface_logo.svg' alt="">HF](https://huggingface.co/papers/2607.14777){:.btn-link .btn-hf} <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=t8H8Ru0AAAAJ&citation_for_view=t8H8Ru0AAAAJ:dhFuZR0502QC" class="btn-link btn-scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i> <span class='show_paper_citations' data='t8H8Ru0AAAAJ:dhFuZR0502QC'>--</span></a> [Code](https://github.com/jinyangwu/SEED){:.btn-link .btn-code} <a href="#" class="btn-link btn-bib" data-bib-key="wu2026seed">BIB</a>
 - We turn completed on-policy trajectories into evolving hindsight skills and dense token-level supervision for long-horizon agentic reinforcement learning.
 </div>
 </div>
