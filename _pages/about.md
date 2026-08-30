@@ -29,6 +29,7 @@ My research interests focus on **LLM / MLLM reasoning, planning, and agentic rei
 
 <div class="scrollable-area">
   <ul>
+    <li class="news-item"><span class="news-date">2026.08</span><span class="news-body">🎙️ Invited to give a talk on <a href="https://mp.weixin.qq.com/s/1e7wap7f7d4kim19t_anPQ">Agentic Skill Lifecycle</a> at the MLNLP Community.</span></li>
     <li class="news-item"><span class="news-date">2026.08</span><span class="news-body">🎉 Four papers accepted to EMNLP 2026. See you in Budapest 🇭🇺!</span></li>
     <li class="news-item"><span class="news-date">2026.08</span><span class="news-body">🌙 Invited to Qingyuan InnoVibe Starry Night (星月夜沙龙), exchanging ideas with <a href="https://www.wangzhongyuan.com/">Zhongyuan Wang</a> and <a href="https://scholar.google.com/citations?user=YCBFupwAAAAJ&amp;hl=zh-CN">Huaxia Xia</a>.</span></li>
     <li class="news-item"><span class="news-date">2026.08</span><span class="news-body">🚀 Released <a href="https://arxiv.org/abs/2608.05987">AgentOPSD</a>, <a href="https://arxiv.org/abs/2608.01837">PCSD</a>, <a href="https://arxiv.org/abs/2607.24280">MAPD</a>, and <a href="https://arxiv.org/abs/2608.14718">VideoGAIA</a>. AgentOPSD featured as 🤗 HF Daily Paper #1!</span></li>
@@ -234,5 +235,6 @@ Yuhao Shen, Tianyu Liu, Junyi Shen, **<u>Jinyang Wu</u>**, Quan Kong, Li Huan, C
 - **Top-tier NLP Conferences**: ACL ARR (2026).
 
 # 💬 Invited Talks
+- *2026.08*: **“Agentic Skill Lifecycle”**, MLNLP Community, [Slides](https://mp.weixin.qq.com/s/1e7wap7f7d4kim19t_anPQ).
 - *2025.12*: I gave an invited talk on memory usage, hosted by the Metaverse Technical Committee of the Chinese Association for Artificial Intelligence.
 - *2025.05*: I gave an invited talk on in-context reasoning at the 7th Beijing Universities Artificial Intelligence Academic Forum.
