@@ -66,6 +66,7 @@ My research interests focus on **LLM / MLLM reasoning, planning, and agentic rei
 **<u>Jinyang Wu</u>**, Shuo Yang, Changpeng Yang, Yuhao Shen, Shuai Zhang, Zhengqi Wen, Jianhua Tao
 
 [Paper](https://arxiv.org/abs/2601.20209){:.btn-link .btn-paper} [<img src='./images/svgs/huggingface_logo.svg' alt="">HF](https://huggingface.co/collections/Jinyang23/spark){:.btn-link .btn-hf} <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=t8H8Ru0AAAAJ&citation_for_view=t8H8Ru0AAAAJ:0EnyYjriUFMC" class="btn-link btn-scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i> <span class='show_paper_citations' data='t8H8Ru0AAAAJ:0EnyYjriUFMC'>--</span></a> [Code](https://github.com/jinyangwu/SPARK){:.btn-link .btn-code} <a href="#" class="btn-link btn-bib" data-bib-key="wu2026spark">BIB</a>
+<span class="paper-note">ACL 2026 Oral</span>
 - We propose a policy-aware branching framework that allocates exploration budget to critical decision states, improving sample efficiency for long-horizon agentic RL.
 </div>
 </div>
