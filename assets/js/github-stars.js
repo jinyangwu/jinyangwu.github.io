@@ -55,7 +55,7 @@
       return;
     }
 
-    fetch(window.githubStarStatsUrl)
+    fetch(window.githubStarStatsUrl, { cache: "no-store" })
       .then(function (response) {
         if (!response.ok) {
           throw new Error("GitHub star data request failed");
